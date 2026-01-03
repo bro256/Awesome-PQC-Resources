@@ -94,6 +94,7 @@ Whether you’re a **developer**, **researcher**, or **security architect**, thi
 - [Perspectives on the plan for PQC transition](https://www.gov.uk/government/publications/perspectives-on-the-plan-for-pqc-transition). GOV UK. 27 Nov, 2025.
 - [Future-proofing authentication: A look at the future of post-quantum cryptography](https://www.yubico.com/blog/future-proofing-authentication-a-look-at-the-future-of-post-quantum-cryptography/). Yubico. Oct 21, 2025.
 - [Migration to post-quantum cryptography white paper](https://www.mastercard.com/content/dam/mccom/shared/news-and-trends/stories/2025/quantum-explainer-and-white-paper/Migration-to-post-quantum-cryptography-WhitePaper_2025.pdf). Mastercard. Oct 20, 2025.
+- [Signal Protocol and Post-Quantum Ratchets](https://signal.org/blog/spqr/). Signal. 2 Oct, 2025.
 - [Performance and Storage Analysis of CRYSTALS Kyber as a Post Quantum Replacement for RSA and ECC](https://arxiv.org/abs/2508.01694v1). Cornell University. Aug 30, 2025.
 - [Quantum-safe security: Progress towards next-generation cryptography](https://www.microsoft.com/en-us/security/blog/2025/08/20/quantum-safe-security-progress-towards-next-generation-cryptography/). Microsoft. Aug 20, 2025.
 - [Ballot SMC013: Enable PQC Algorithms for S/MIME](https://cabforum.org/2025/07/02/ballot-smc-013/). CA/Browser Forum. Jul 2, 2025.
