@@ -79,6 +79,7 @@ Whether you’re a **developer**, **researcher**, or **security architect**, thi
 
 ## Migration Guides and Strategies
 - [NIS2, DORA, and the EU Post-Quantum Roadmap](https://postquantum.com/quantum-policies/nis2-dora-pqc-quantum/). postquantum.com  6 Jan, 2026
+- [A Practitioner’s Guide to Post-Quantum Cryptography](https://cloudsecurityalliance.org/artifacts/a-practitioners-guide-to-post-quantum-cryptography#). Cloud Security Alliance. 11 Oct, 2025.
 - [Guidelines for Cryptography](https://www.cyber.gov.au/resources-business-and-government/essential-cyber-security/ism/cyber-security-guidelines/guidelines-cryptography). Australian Signals Directorate. 12 Dec, 2024.
 - [Recommendation on a Coordinated Implementation Roadmap for the transition to Post-Quantum Cryptography](https://digital-strategy.ec.europa.eu/en/library/recommendation-coordinated-implementation-roadmap-transition-post-quantum-cryptography). European Commission. Apr 11, 2024.
 - [Google's Threat model for Post-Quantum Cryptography](https://bughunters.google.com/blog/5108747984306176/google-s-threat-model-for-post-quantum-cryptography). Google. Mar 11, 2024.
