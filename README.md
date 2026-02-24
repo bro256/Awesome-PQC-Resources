@@ -78,6 +78,7 @@ Whether you’re a **developer**, **researcher**, or **security architect**, thi
 - [The PQC Migration Handbook](https://english.aivd.nl/publications/publications/2024/12/3/the-pqc-migration-handbook). AIVD, CWI, TNO. Dec, 2024.
 
 ## Migration Guides and Strategies
+- [Prioritising post-quantum cryptography migration activities in financial services](https://www.europol.europa.eu/publications-events/publications/prioritising-post-quantum-cryptography-migration-activities-in-financial-services). Europol. 21 Jan, 2026.
 - [NIS2, DORA, and the EU Post-Quantum Roadmap](https://postquantum.com/quantum-policies/nis2-dora-pqc-quantum/). postquantum.com  6 Jan, 2026
 - [A Practitioner’s Guide to Post-Quantum Cryptography](https://cloudsecurityalliance.org/artifacts/a-practitioners-guide-to-post-quantum-cryptography#). Cloud Security Alliance. 11 Oct, 2025.
 - [Guidelines for Cryptography](https://www.cyber.gov.au/resources-business-and-government/essential-cyber-security/ism/cyber-security-guidelines/guidelines-cryptography). Australian Signals Directorate. 12 Dec, 2024.
