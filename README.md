@@ -96,6 +96,7 @@ Whether you’re a **developer**, **researcher**, or **security architect**, thi
 - [Post-Quantum Cryptography Conference. January 15 and 16, 2025 - Austin, Texas, US](https://pkic.org/events/2025/pqc-conference-austin-us/). PKI Consortium. Jan, 2025.
 
 ## Research and Publications
+- [Shor's algorithm is possible with as few as 10,000 reconfigurable atomic qubits](https://arxiv.org/abs/2603.28627). Mar 30, 2026.
 - [Quantum frontiers may be closer than they appear](https://blog.google/innovation-and-ai/technology/safety-security/cryptography-migration-timeline/). Google. Mar 25, 2026.
 - [Perspectives on the plan for PQC transition](https://www.gov.uk/government/publications/perspectives-on-the-plan-for-pqc-transition). GOV UK. 27 Nov, 2025.
 - [Future-proofing authentication: A look at the future of post-quantum cryptography](https://www.yubico.com/blog/future-proofing-authentication-a-look-at-the-future-of-post-quantum-cryptography/). Yubico. Oct 21, 2025.
