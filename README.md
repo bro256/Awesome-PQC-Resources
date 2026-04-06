@@ -155,6 +155,7 @@ Whether you’re a **developer**, **researcher**, or **security architect**, thi
  - [OpenSSL](https://openssl-library.org/)
  - [Open Quantum Safe](https://openquantumsafe.org/)
  - [PQClean](https://github.com/PQClean/PQClean/)
+ - [asqav](https://github.com/jagmarques/asqav-sdk) - Quantum-safe AI agent governance SDK using ML-DSA-65 signed audit trails for policy enforcement and threat detection. Python, MIT license.
 
 ## Talks and Videos
 - [OpenSSL Conference](https://www.youtube.com/@OpenSSLConference)
