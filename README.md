@@ -79,6 +79,7 @@ Whether you’re a **developer**, **researcher**, or **security architect**, thi
 - [The PQC Migration Handbook](https://english.aivd.nl/publications/publications/2024/12/3/the-pqc-migration-handbook). AIVD, CWI, TNO. Dec, 2024.
 
 ## Migration Guides and Strategies
+- [Securing The Nation Against Advanced Cryptographic Attacks](https://www.whitehouse.gov/presidential-actions/2026/06/securing-the-nation-against-advanced-cryptographic-attacks/). The White House. Jun 22, 2026.
 - [Where to Go Next with Quantum-Safe Certificates](https://bughunters.google.com/blog/next-with-quantum-safe-certificates). Google. Jun 1, 2026.
 - [Post-Quantum Cryptography Migration at Meta: Framework, Lessons, and Takeaways](https://engineering.fb.com/2026/04/16/security/post-quantum-cryptography-migration-at-meta-framework-lessons-and-takeaways/) Meta. Apr 16, 2026.
 - [Cloudflare targets 2029 for full post-quantum security](https://blog.cloudflare.com/post-quantum-roadmap/). Cloudflare. Apr 4, 2026.
