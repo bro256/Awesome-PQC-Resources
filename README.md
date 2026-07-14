@@ -165,6 +165,7 @@ Whether you’re a **developer**, **researcher**, or **security architect**, thi
  - [OpenSSL](https://openssl-library.org/)
  - [Open Quantum Safe](https://openquantumsafe.org/)
  - [PQClean](https://github.com/PQClean/PQClean/)
+ - [subtlepq](https://github.com/vesvault/subtlepq) — Post-quantum polyfill for the Web Cryptography API: ML-KEM and ML-DSA per the WICG modern-algos draft, for browsers and Node. VESvault. Jul 13, 2026.
 
 ## Talks and Videos
 - [OpenSSL Conference](https://www.youtube.com/@OpenSSLConference)
