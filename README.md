@@ -103,6 +103,7 @@ Whether you’re a **developer**, **researcher**, or **security architect**, thi
 - [Post-Quantum Cryptography Conference. January 15 and 16, 2025 - Austin, Texas, US](https://pkic.org/events/2025/pqc-conference-austin-us/). PKI Consortium. Jan, 2025.
 
 ## Research and Publications
+- [Post-quantum cryptography (PQC) migration workshop report](https://www.ncsc.gov.uk/blogs/post-quantum-cryptography-pqc-migration-workshop-report). National Cyber Security Centre (UK). Jul 22, 2026.
 - [Why we cannot wait for better post-quantum signature algorithms](https://blog.cloudflare.com/ml-dsa-will-have-to-do/). Cloudflare. Jul 7, 2026.
 - [Exploiting ML-DSA bugs](https://cr.yp.to/papers/mldsa-20260601.pdf). Daniel J. Bernstein. Jun 22, 2026.
 - [Shor's algorithm is possible with as few as 10,000 reconfigurable atomic qubits](https://arxiv.org/abs/2603.28627). Mar 31, 2026.
