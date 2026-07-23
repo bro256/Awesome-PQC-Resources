@@ -166,6 +166,7 @@ Whether you’re a **developer**, **researcher**, or **security architect**, thi
  - [OpenSSL](https://openssl-library.org/)
  - [Open Quantum Safe](https://openquantumsafe.org/)
  - [PQClean](https://github.com/PQClean/PQClean/)
+ - [PQC-Readiness](https://github.com/Arpan0995/pqc-migration-readiness) — Static auditor estimating post-quantum migration effort for Java codebases. Arpan Sharma.
 
 ## Talks and Videos
 - [OpenSSL Conference](https://www.youtube.com/@OpenSSLConference)
