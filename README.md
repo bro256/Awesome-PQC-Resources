@@ -103,6 +103,7 @@ Whether you’re a **developer**, **researcher**, or **security architect**, thi
 - [Post-Quantum Cryptography Conference. January 15 and 16, 2025 - Austin, Texas, US](https://pkic.org/events/2025/pqc-conference-austin-us/). PKI Consortium. Jan, 2025.
 
 ## Research and Publications
+- [A Reproducibility Protocol for Cross-Implementation Evaluation of Post-Quantum ACVP Test Vectors](https://arxiv.org/abs/2608.13784). Christopher M. Frost. Aug 13, 2026.
 - [Discovering cryptographic weaknesses with Claude](https://www.anthropic.com/research/discovering-cryptographic-weaknesses). Anthropic. Jul 28, 2026.
 - [Post-quantum cryptography (PQC) migration workshop report](https://www.ncsc.gov.uk/blogs/post-quantum-cryptography-pqc-migration-workshop-report). National Cyber Security Centre (UK). Jul 22, 2026.
 - [Why we cannot wait for better post-quantum signature algorithms](https://blog.cloudflare.com/ml-dsa-will-have-to-do/). Cloudflare. Jul 7, 2026.
@@ -167,6 +168,7 @@ Whether you’re a **developer**, **researcher**, or **security architect**, thi
  - [OpenSSL](https://openssl-library.org/)
  - [Open Quantum Safe](https://openquantumsafe.org/)
  - [PQClean](https://github.com/PQClean/PQClean/)
+ - [QNSI ML-KEM ACVP Artifact](https://doi.org/10.5281/zenodo.21910571)
 
 ## Talks and Videos
 - [OpenSSL Conference](https://www.youtube.com/@OpenSSLConference)
