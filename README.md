@@ -77,7 +77,7 @@ Whether you’re a **developer**, **researcher**, or **security architect**, thi
 - [Quantum-Resistant Cipher Suites for EDHOC](https://datatracker.ietf.org/doc/draft-spm-lake-pqsuites/)
 
 ## Books and Handbooks
-- [The PQC Migration Handbook](https://english.aivd.nl/publications/publications/2024/12/3/the-pqc-migration-handbook). AIVD, CWI, TNO. Dec, 2024.
+- [The PQC Migration Handbook](https://english.aivd.nl/documents/2024/12/3/the-pqc-migration-handbook). AIVD, CWI, TNO. Dec, 2024.
 
 ## Migration Guides and Strategies
 - [Accelerating the quantum-safe timeline](https://www.microsoft.com/en-us/security/blog/2026/06/30/microsoft-advances-quantum-safe-security-as-the-risk-timeline-shifts/). Microsoft. Jun 30, 2026.
