@@ -172,6 +172,7 @@ Whether you’re a **developer**, **researcher**, or **security architect**, thi
 - [PKI Consortium](https://pkic.org/)
 
 ## Software, Tools, Libraries
+ - [Ombracrypt](https://github.com/ABiswasDev/Ombracrypt)
  - [OpenSSL](https://openssl-library.org/)
  - [Open Quantum Safe](https://openquantumsafe.org/)
  - [PQClean](https://github.com/PQClean/PQClean/)
