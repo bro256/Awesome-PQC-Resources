@@ -40,7 +40,7 @@ Whether you’re a **developer**, **researcher**, or **security architect**, thi
 #### NIST Recommendation for Stateful Hash-Based Signature Schemes
 - [NIST SP 800-208](https://csrc.nist.gov/pubs/sp/800/208/final), Recommendation for Stateful Hash-Based Signature Schemes [LMS](https://www.rfc-editor.org/rfc/rfc8554.html), [XMSS](https://www.rfc-editor.org/rfc/rfc8391.html)
 #### Additional / Pre-existing Standards
-- [FN - DSA](https://csrc.nist.gov/presentations/2024/navigating-floating-point-challenges-in-falcon) - [(Falcon)](https://falcon-sign.info)
+- [FN-DSA](https://csrc.nist.gov/presentations/2024/navigating-floating-point-challenges-in-falcon) - [(Falcon)](https://falcon-sign.info)
 - [HQC](https://www.nist.gov/news-events/news/2025/03/nist-selects-hqc-fifth-algorithm-post-quantum-encryption) - [(Hamming Quasi-Cyclic)](https://pqc-hqc.org/). Backup for ML-KEM. March 11, 2025
 ## IETF
 #### RFC:
@@ -81,6 +81,7 @@ Whether you’re a **developer**, **researcher**, or **security architect**, thi
 - [Quantum-Resistant Cipher Suites for EDHOC](https://datatracker.ietf.org/doc/draft-spm-lake-pqsuites/)
 - [Post-Quantum and Post-Quantum/Traditional Hybrid Algorithms for HPKE](https://datatracker.ietf.org/doc/draft-ietf-hpke-pq/)
 - [Post-quantum Key Exchange with ML-KEM in the Internet Key Exchange Protocol Version 2 (IKEv2)](https://datatracker.ietf.org/doc/draft-ietf-ipsecme-ikev2-mlkem/)
+- [Use of the FN-DSA Signature Algorithm in the Cryptographic Message Syntax (CMS)](https://datatracker.ietf.org/doc/draft-ietf-lamps-cms-fn-dsa/)
 
 ## Books and Handbooks
 - [The PQC Migration Handbook](https://english.aivd.nl/documents/2024/12/3/the-pqc-migration-handbook). AIVD, CWI, TNO. Dec, 2024.
