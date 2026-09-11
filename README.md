@@ -188,9 +188,11 @@ This project thrives on community input — from researchers, engineers, and ent
 
 ### How to Contribute
 1. **Check for duplicates** – ensure the resource isn’t already listed.
-2. **Use credible sources** – academic papers, official standards, recognized organizations, or trusted industry blogs.
-3. **Provide full references** – include title, author/organization, date (if available), and a working link.
-4. **Keep it relevant** – focus on post-quantum cryptography and quantum-safe security.
+2. **Use credible sources** – academic papers, official standards, recognized organizations, established projects, or trusted industry publications.
+3. **Prefer established resources** – resources should have a meaningful track record, community recognition, or independent validation.
+4. **No commercial products or services** – this repository is intended for community resources, standards, research, tools, and open-source projects, rather than commercial products or services.
+5. **Provide full references** – include title, author/organization, date (if available), and a working link.
+6. **Keep it relevant** – focus on post-quantum cryptography and quantum-safe security.
 
 ### Contribution Examples
 - Add new **publications, events, or standards**.
@@ -204,4 +206,3 @@ This project thrives on community input — from researchers, engineers, and ent
 
 Please use this format when adding resources:
 - [Title](URL) — Short description. Organization/Author. Month Day, Year.
-
