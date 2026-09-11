@@ -173,6 +173,7 @@ Whether you’re a **developer**, **researcher**, or **security architect**, thi
 - [PKI Consortium](https://pkic.org/)
 
 ## Software, Tools, Libraries
+ - [Botan](https://botan.randombit.net/)
  - [CIRCL](https://github.com/cloudflare/circl)
  - [OpenSSL](https://openssl-library.org/)
  - [Open Quantum Safe](https://openquantumsafe.org/)
