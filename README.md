@@ -176,6 +176,7 @@ Whether you’re a **developer**, **researcher**, or **security architect**, thi
  - [OpenSSL](https://openssl-library.org/)
  - [Open Quantum Safe](https://openquantumsafe.org/)
  - [PQClean](https://github.com/PQClean/PQClean/)
+ - [wolfCrypt](https://www.wolfssl.com/products/wolfcrypt/)
  - [wolfSSL](https://www.wolfssl.com/)
 
 ## Talks and Videos
