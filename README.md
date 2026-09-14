@@ -26,8 +26,9 @@ Whether you’re a **developer**, **researcher**, or **security architect**, thi
 7. [Implementations](#implementations)
 8. [Communities](#communities)
 9. [Software, Tools, Libraries](#software-tools-libraries)
-10. [Talks & Videos](#talks-and-videos)
-11. [Contributions](#contributions)
+10. [Learning Resources](learning-resources)
+11. [Talks & Videos](#talks-and-videos)
+12. [Contributions](#contributions)
 
 
 ---
@@ -41,7 +42,7 @@ Whether you’re a **developer**, **researcher**, or **security architect**, thi
 - [NIST SP 800-208](https://csrc.nist.gov/pubs/sp/800/208/final), Recommendation for Stateful Hash-Based Signature Schemes [LMS](https://www.rfc-editor.org/rfc/rfc8554.html), [XMSS](https://www.rfc-editor.org/rfc/rfc8391.html)
 #### Additional / Pre-existing Standards
 - [FN-DSA](https://csrc.nist.gov/presentations/2024/navigating-floating-point-challenges-in-falcon) - [(Falcon)](https://falcon-sign.info)
-- [HQC](https://www.nist.gov/news-events/news/2025/03/nist-selects-hqc-fifth-algorithm-post-quantum-encryption) - [(Hamming Quasi-Cyclic)](https://pqc-hqc.org/). Backup for ML-KEM. March 11, 2025
+- [HQC](https://www.nist.gov/news-events/news/2025/03/nist-selects-hqc-fifth-algorithm-post-quantum-encryption) - [(Hamming Quasi-Cyclic)](https://pqc-hqc.org/). Backup for ML-KEM. March 11, 2025.
 ## IETF
 #### RFC:
 - [RFC 10024. Post-Quantum Traditional (PQ/T) Hybrid Key Agreement Mechanisms for TLS 1.3](https://www.rfc-editor.org/rfc/rfc10024.html). Status: Proposed Standard. Aug 2026.
@@ -180,6 +181,20 @@ Whether you’re a **developer**, **researcher**, or **security architect**, thi
  - [PQClean](https://github.com/PQClean/PQClean/)
  - [wolfCrypt](https://www.wolfssl.com/products/wolfcrypt/)
  - [wolfSSL](https://www.wolfssl.com/)
+
+## Learning Resources
+
+**Algorithms - Prof Bill Buchanan / ASecuritySite**
+- [ML-KEM (Kyber)](https://asecuritysite.com/kyber/)
+- [ML-DSA (Dilithium)](https://asecuritysite.com/dilithium/)
+- [SLH-DSA (SPHINCS+)](https://asecuritysite.com/slh_dsa/)
+
+**Library / toolkit demos - Prof Bill Buchanan / ASecuritySite**
+- [Liboqs](https://asecuritysite.com/liboqs/)
+- [wolfCrypt](https://asecuritysite.com/wolfcrypt/)
+- [OpenSSL](https://asecuritysite.com/c_code/)
+- [CIRCL](https://asecuritysite.com/circl/)
+- [Botan 3](https://asecuritysite.com/botan3/)
 
 ## Talks and Videos
 - [OpenSSL Conference](https://www.youtube.com/@OpenSSLConference)
