@@ -46,6 +46,7 @@ Whether you’re a **developer**, **researcher**, or **security architect**, thi
 - [HQC](https://www.nist.gov/news-events/news/2025/03/nist-selects-hqc-fifth-algorithm-post-quantum-encryption) - [(Hamming Quasi-Cyclic)](https://pqc-hqc.org/). Backup for ML-KEM. March 11, 2025.
 ## IETF
 #### RFC:
+- [RFC 10042. Post-Quantum/Traditional Hybrid Key Exchange with the Module-Lattice-Based Key-Encapsulation Mechanism for Use in SSH](https://www.rfc-editor.org/rfc/rfc10042.html). Status: Informational. Aug 2026.
 - [RFC 10024. Post-Quantum Traditional (PQ/T) Hybrid Key Agreement Mechanisms for TLS 1.3](https://www.rfc-editor.org/rfc/rfc10024.html). Status: Proposed Standard. Aug 2026.
 - [RFC 9980. Post-Quantum Cryptography in OpenPGP](https://www.rfc-editor.org/rfc/rfc9980.html). Status: Proposed Standard. Jun 2026.
 - [RFC 9964. ML-DSA for JSON Object Signing and Encryption (JOSE) and CBOR Object Signing and Encryption (COSE)](https://www.rfc-editor.org/rfc/rfc9964.html). Status: Proposed Standard. May 2026.
@@ -74,7 +75,6 @@ Whether you’re a **developer**, **researcher**, or **security architect**, thi
 - [ML-KEM Post-Quantum Key Agreement for TLS 1.3](https://datatracker.ietf.org/doc/draft-ietf-tls-mlkem)
 - [Hybrid key exchange in TLS 1.3](https://datatracker.ietf.org/doc/html/draft-ietf-tls-hybrid-design)
 - [Adapting Constrained Devices for Post-Quantum Cryptography](https://datatracker.ietf.org/doc/draft-ietf-pquip-pqc-hsm-constrained)
-- [PQ/T Hybrid Key Exchange with ML-KEM in SSH](https://datatracker.ietf.org/doc/draft-ietf-sshm-mlkem-hybrid-kex)
 - [Composite ML-DSA for use in X.509 Public Key Infrastructure](https://datatracker.ietf.org/doc/draft-ietf-lamps-pq-composite-sigs)
 - [ML-DSA for Web Authentication](https://datatracker.ietf.org/doc/draft-vitap-ml-dsa-webauthn)
 - [TLS Key Share Prediction](https://datatracker.ietf.org/doc/draft-ietf-tls-key-share-prediction)
