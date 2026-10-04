@@ -33,6 +33,7 @@ Whether you’re a **developer**, **researcher**, or **security architect**, thi
 
 ---
 ## NIST
+- [Post-Quantum Cryptography Resource Hub](https://www.nsa.gov/Cybersecurity/Post-Quantum-Cryptography-Resource-Hub/)
 - [Post-Quantum Cryptography](https://www.nist.gov/pqcrypto)
 #### NIST Finalized PQC Standards
 - [ML-KEM - FIPS 203](https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.203.pdf) Module-Lattice-Based Key-Encapsulation Mechanism Standard ([CRYSTALS-Kyber](https://pq-crystals.org/kyber/) derived). Aug 13, 2024.
