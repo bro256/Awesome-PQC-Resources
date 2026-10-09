@@ -178,6 +178,7 @@ Whether you’re a **developer**, **researcher**, or **security architect**, thi
 ## Software, Tools, Libraries
  - [Botan](https://botan.randombit.net/)
  - [CIRCL](https://github.com/cloudflare/circl)
+ - [fractal-pqc](https://www.npmjs.com/package/fractal-pqc) — Open-source (MIT) reference that binds a secp256k1/Taproot key to ML-DSA-65 (FIPS 204) and signs BIP-341 key-path spends, self-checked against the official BIP-341 test vectors. FRACTAL AI S.A.S. 2026.
  - [OpenSSL](https://openssl-library.org/)
  - [Open Quantum Safe](https://openquantumsafe.org/)
  - [PQClean](https://github.com/PQClean/PQClean/)
