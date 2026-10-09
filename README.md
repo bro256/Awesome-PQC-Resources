@@ -153,6 +153,7 @@ Whether you’re a **developer**, **researcher**, or **security architect**, thi
 - [ANSSI views on the Post-Quantum Cryptography transition](https://cyber.gouv.fr/en/publications/anssi-views-post-quantum-cryptography-transition). ANSSI. Jan 4, 2022.
 
 ## Implementations
+- [Post-quantum signed receipts backed by an ML-DSA-65 key directory](https://github.com/johnInarti/pqc-receipt-anchor). Open-source (MIT) anchor contract and offline verifier for payment receipts signed with ML-DSA-65 (FIPS 204), produced by a Rust Layer-1 whose consensus signs its blocks with ML-DSA-65. The [signing-key directory](https://fractalai.net.co/.well-known/x402-receipt-keys) is itself ML-DSA-65-signed over a Merkle root and has rotated through four chained epochs in production, keeping revoked keys listed so older receipts stay verifiable. Limits: single validator, directory root not yet anchored on chain, no external audit, no FIPS 140-3/CMVP validation. FractalAI. Oct 09, 2026.
 - [1.1.1.1 now supports post-quantum DNSSEC, all 2,420 bytes of it](https://blog.cloudflare.com/post-quantum-dnssec-1111/). Cloudflare. Sep 10, 2026.
 - [New Windows Features to Secure Today’s Data in a Post-Quantum World](https://techcommunity.microsoft.com/blog/microsoft-security-blog/new-windows-features-to-secure-today%E2%80%99s-data-in-a-post-quantum-world/4523370). Microsoft. Jun 02, 2026. Updated: Jul 14, 2026.
 - [What’s new in post-quantum cryptography in RHEL 10.1](https://www.redhat.com/en/blog/whats-new-post-quantum-cryptography-rhel-101). Red Hat. Feb 4, 2026.
