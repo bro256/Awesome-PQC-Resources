@@ -4,7 +4,7 @@ A curated collection of cutting-edge resources on **PQC (post quantum cryptograp
 ![Last Commit](https://img.shields.io/github/last-commit/bro256/Awesome-Post-Quantum-Cryptography-Resources?label=Last%20Updated)
 
 ## Introduction
-Quantum computers will one day be powerful enough to break today's widely used cryptographic systems, such as RSA and ECC.
+Cryptographically relevant quantum computers could break widely used public-key cryptographic systems, including RSA, Diffie–Hellman (DH), and elliptic-curve cryptography (ECC), by exploiting quantum algorithms that undermine the mathematical problems on which their security relies.
 To prepare for this shift, **post-quantum cryptography (PQC)** is being developed to ensure our digital world remains secure in the quantum era.
 
 This repository brings together:
