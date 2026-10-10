@@ -47,6 +47,7 @@ Whether you’re a **developer**, **researcher**, or **security architect**, thi
 ## IETF
 #### RFC:
 - [RFC 10042. Post-Quantum/Traditional Hybrid Key Exchange with the Module-Lattice-Based Key-Encapsulation Mechanism for Use in SSH](https://www.rfc-editor.org/rfc/rfc10042.html). Status: Informational. Aug 2026.
+- [RFC 10033. Hash-Based Signatures: State and Backup Management](https://www.rfc-editor.org/rfc/rfc10033.html). Status: Informational. Sep 2026.
 - [RFC 10024. Post-Quantum Traditional (PQ/T) Hybrid Key Agreement Mechanisms for TLS 1.3](https://www.rfc-editor.org/rfc/rfc10024.html). Status: Proposed Standard. Aug 2026.
 - [RFC 9980. Post-Quantum Cryptography in OpenPGP](https://www.rfc-editor.org/rfc/rfc9980.html). Status: Proposed Standard. Jun 2026.
 - [RFC 9964. ML-DSA for JSON Object Signing and Encryption (JOSE) and CBOR Object Signing and Encryption (COSE)](https://www.rfc-editor.org/rfc/rfc9964.html). Status: Proposed Standard. May 2026.
