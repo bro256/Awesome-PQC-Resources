@@ -233,25 +233,40 @@ Government and regulator documents are under [Migration Guides and Strategies](#
 - [Developing with quantum-safe OpenSSL](https://developer.ibm.com/tutorials/awb-quantum-safe-openssl/). IBM. Aug 21, 2024.
 - [The Cornerstone of Cybersecurity – Cryptographic Standards and a 50-Year Evolution](https://www.nist.gov/blogs/cybersecurity-insights/cornerstone-cybersecurity-cryptographic-standards-and-50-year-evolution). NIST. May 26, 2022.
 
-## Implementations
+## Implementations and Deployments
+What is shipping in products and protocols. Libraries and code are under [Software, Tools, Libraries](#software-tools-libraries).
+
+### Platforms, Services and Applications
+- [Automatic Key Exchange for origins](https://blog.cloudflare.com/automatic-key-exchange-for-origins/). Cloudflare. Sep 2026.
 - [1.1.1.1 now supports post-quantum DNSSEC, all 2,420 bytes of it](https://blog.cloudflare.com/post-quantum-dnssec-1111/). Cloudflare. Sep 10, 2026.
-- [New Windows Features to Secure Today’s Data in a Post-Quantum World](https://techcommunity.microsoft.com/blog/microsoft-security-blog/new-windows-features-to-secure-today%E2%80%99s-data-in-a-post-quantum-world/4523370). Microsoft. Jun 02, 2026. Updated: Jul 14, 2026.
-- [What’s new in post-quantum cryptography in RHEL 10.1](https://www.redhat.com/en/blog/whats-new-post-quantum-cryptography-rhel-101). Red Hat. Feb 4, 2026.
-- [A deeper look at post-quantum cryptography support in Red Hat OpenShift 4.20 control plane](https://www.redhat.com/en/blog/deeper-look-post-quantum-cryptography-support-red-hat-openshift-420-control-plane). Red Hat. Nov 11, 2025.
+- [New Windows Features to Secure Today's Data in a Post-Quantum World](https://techcommunity.microsoft.com/blog/microsoft-security-blog/new-windows-features-to-secure-today%E2%80%99s-data-in-a-post-quantum-world/4523370). Microsoft. Jun 02, 2026. Updated: Jul 14, 2026.
+- [What's new in post-quantum cryptography in RHEL 10.1](https://www.redhat.com/en/blog/whats-new-post-quantum-cryptography-rhel-101). Red Hat. Feb 4, 2026.
 - [Post-Quantum Cryptography APIs Now Generally Available on Microsoft Platforms](https://techcommunity.microsoft.com/blog/microsoft-security-blog/post-quantum-cryptography-apis-now-generally-available-on-microsoft-platforms/4469093). Microsoft. Nov 18, 2025.
+- [A deeper look at post-quantum cryptography support in Red Hat OpenShift 4.20 control plane](https://www.redhat.com/en/blog/deeper-look-post-quantum-cryptography-support-red-hat-openshift-420-control-plane). Red Hat. Nov 11, 2025.
+- [State of the post-quantum Internet in 2025](https://blog.cloudflare.com/pq-2025/). Cloudflare. 2025.
 - [How to Become Quantum-Ready Today: Luna HSM v7.9 Delivers Real-World PQC, Validated by Thales PKI Technology Partners](https://cpl.thalesgroup.com/blog/encryption/luna-hsm-pqc-quantum-safe-encryption). Thales. Jul 29, 2025.
 - [Fortinet adds quantum-safe encryption to FortiOS 7.6 update](https://www.fortinet.com/corporate/about-us/newsroom/press-releases/2025/fortinet-advances-quantum-safe-security-to-guard-against-emerging-quantum-threats). Fortinet. Jul 22, 2025.
 - [Post-Quantum Cryptography in Kubernetes](https://kubernetes.io/blog/2025/07/18/pqc-in-k8s/). Kubernetes. Jul 18, 2025.
 - [Prepare your network for quantum-secure encryption in TLS](https://support.apple.com/en-us/122756). Apple. June 09, 2025.
-- [Introducing PQC Algorithms in SymCrypt](https://techcommunity.microsoft.com/t5/security-compliance-and-identity/microsoft-s-quantum-resistant-cryptography-is-here/ba-p/4238780). Microsoft. Sep 09, 2024. Updated Dec 18, 2024.
 - [Customer compliance and security during the post-quantum cryptographic migration](https://aws.amazon.com/blogs/security/customer-compliance-and-security-during-the-post-quantum-cryptographic-migration/). AWS. Oct 03, 2024.
 - [NordVPN launches first app with post-quantum encryption support](https://nordvpn.com/blog/nordvpn-linux-post-quantum-encryption-support/). NordVPN. Sep 30, 2024.
+- [Introducing PQC Algorithms in SymCrypt](https://techcommunity.microsoft.com/t5/security-compliance-and-identity/microsoft-s-quantum-resistant-cryptography-is-here/ba-p/4238780). Microsoft. Sep 09, 2024. Updated Dec 18, 2024.
+- [Post-quantum cryptography in Chrome](https://security.googleblog.com/2024/08/post-quantum-cryptography-standards.html). Google. Aug 2024.
+- [Post-quantum readiness for TLS at Meta](https://engineering.fb.com/2024/05/22/security/post-quantum-readiness-tls-pqr-meta/). Meta. May 22, 2024.
 - [Advancing Our Amazing Bet on Asymmetric Cryptography](https://blog.chromium.org/2024/05/advancing-our-amazing-bet-on-asymmetric.html). Google. May 23, 2024.
 - [iMessage with PQ3: The new state of the art in quantum-secure messaging at scale](https://security.apple.com/blog/imessage-pq3/). Apple. Feb 21, 2024.
 - [The PQXDH Key Agreement Protocol](https://signal.org/docs/specifications/pqxdh/pqxdh.pdf). Signal. Jan 23, 2024.
 - [Cloudflare now uses post-quantum cryptography to talk to your origin server](https://blog.cloudflare.com/post-quantum-to-origins). CloudFlare. Sep 29, 2023.
 - [Quantum Resistance and the Signal Protocol](https://signal.org/blog/pqxdh/). Signal. Sep 19, 2023.
 - [Protecting Chrome Traffic with Hybrid Kyber KEM](https://blog.chromium.org/2023/08/protecting-chrome-traffic-with-hybrid.html). Google. Aug 10, 2023.
+
+### Certificates and Web PKI
+- [Let's Encrypt: the path to post-quantum certificates](https://letsencrypt.org/2026/06/03/pq-certs.html). Let's Encrypt. Jun 3, 2026.
+- [Chrome: Post-Quantum HTTPS Authentication Roadmap](https://www.chromium.org/Home/chromium-security/post-quantum-auth-roadmap/). Chromium.
+- [Keeping the Internet fast and secure: introducing Merkle Tree Certificates](https://blog.cloudflare.com/bootstrap-mtc/). Cloudflare.
+
+### SSH
+- [OpenSSH: post-quantum cryptography](https://www.openssh.org/pq.html). OpenSSH.
 
 ## Communities
 - [PKI Consortium](https://pkic.org/)
