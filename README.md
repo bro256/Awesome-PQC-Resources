@@ -4,7 +4,7 @@ A curated collection of cutting-edge resources on **PQC (post quantum cryptograp
 ![Last Commit](https://img.shields.io/github/last-commit/bro256/Awesome-Post-Quantum-Cryptography-Resources?label=Last%20Updated)
 
 ## Introduction
-Cryptographically relevant quantum computers could break widely used public-key cryptographic systems, including RSA, Diffie–Hellman (DH), and elliptic-curve cryptography (ECC), by exploiting quantum algorithms that undermine the mathematical problems on which their security relies.
+Cryptographically relevant quantum computers could break widely used public-key cryptographic systems, including RSA, Diffie-Hellman (DH), and elliptic-curve cryptography (ECC), by exploiting quantum algorithms that undermine the mathematical problems on which their security relies.
 To prepare for this shift, **post-quantum cryptography (PQC)** is being developed to ensure our digital world remains secure in the quantum era.
 
 This repository brings together:
@@ -66,31 +66,48 @@ Whether you're a **developer**, **researcher**, or **security architect**, this 
 - [NIST SPECIAL PUBLICATION 1800-38B](https://www.nccoe.nist.gov/sites/default/files/2023-12/pqc-migration-nist-sp-1800-38b-preliminary-draft.pdf) Migration to Post-Quantum Cryptography Quantum Readiness: Cryptographic Discovery. Preliminary draft. NIST. Dec 2023.
 - [NIST SPECIAL PUBLICATION 1800-38A](https://www.nccoe.nist.gov/sites/default/files/2023-04/pqc-migration-nist-sp-1800-38a-preliminary-draft.pdf) Migration to Post-Quantum Cryptography: Preparation for Considering the Implementation and Adoption of Quantum Safe Cryptography. Preliminary draft. NIST. May 2, 2023.
 
+
 ## IETF
-#### RFC:
-- [RFC 10042. Post-Quantum/Traditional Hybrid Key Exchange with the Module-Lattice-Based Key-Encapsulation Mechanism for Use in SSH](https://www.rfc-editor.org/rfc/rfc10042.html). Status: Informational. Aug 2026.
-- [RFC 10033. Hash-Based Signatures: State and Backup Management](https://www.rfc-editor.org/rfc/rfc10033.html). Status: Informational. Sep 2026.
-- [RFC 10024. Post-Quantum Traditional (PQ/T) Hybrid Key Agreement Mechanisms for TLS 1.3](https://www.rfc-editor.org/rfc/rfc10024.html). Status: Proposed Standard. Aug 2026.
-- [RFC 9980. Post-Quantum Cryptography in OpenPGP](https://www.rfc-editor.org/rfc/rfc9980.html). Status: Proposed Standard. Jun 2026.
-- [RFC 9964. ML-DSA for JSON Object Signing and Encryption (JOSE) and CBOR Object Signing and Encryption (COSE)](https://www.rfc-editor.org/rfc/rfc9964.html). Status: Proposed Standard. May 2026.
+
+### Working Groups
+- [PQUIP](https://datatracker.ietf.org/wg/pquip/about/) - Post-Quantum Use In Protocols.
+- [LAMPS](https://datatracker.ietf.org/wg/lamps/about/) - X.509, CMS and S/MIME algorithm work.
+- [TLS](https://datatracker.ietf.org/wg/tls/about/) - hybrid and PQ key exchange and authentication in TLS.
+- [PLANTS](https://datatracker.ietf.org/wg/plants/about/) - Merkle Tree Certificates.
+
+### RFCs
+
+#### Overview and Terminology
 - [RFC 9958. Post-Quantum Cryptography for Engineers](https://www.rfc-editor.org/rfc/rfc9958.html). Status: Informational. Jun 2026.
+- [RFC 9794. Terminology for Post-Quantum Traditional Hybrid Schemes](https://www.rfc-editor.org/rfc/rfc9794.html). Status: Informational. Jun 2025.
+
+#### Key Exchange: TLS, SSH, IKEv2
+- [RFC 10042. Post-Quantum/Traditional Hybrid Key Exchange with the Module-Lattice-Based Key-Encapsulation Mechanism for Use in SSH](https://www.rfc-editor.org/rfc/rfc10042.html). Status: Informational. Aug 2026.
+- [RFC 10024. Post-Quantum Traditional (PQ/T) Hybrid Key Agreement Mechanisms for TLS 1.3](https://www.rfc-editor.org/rfc/rfc10024.html). Status: Proposed Standard. Aug 2026.
 - [RFC 9954. Hybrid Key Exchange in TLS 1.3](https://www.rfc-editor.org/rfc/rfc9954.html). Status: Informational. Jul 2026.
 - [RFC 9941. Secure Shell (SSH) Key Exchange Method Using Hybrid Streamlined NTRU Prime sntrup761 and X25519 with SHA-512: sntrup761x25519-sha512](https://www.rfc-editor.org/rfc/rfc9941.html). Status: Informational. Apr 2026.
+- [RFC 9370. Multiple Key Exchanges in the Internet Key Exchange Protocol Version 2 (IKEv2)](https://www.rfc-editor.org/rfc/rfc9370.html). Status: Proposed Standard. May 2023.
+- [RFC 8784. Mixing Preshared Keys in the Internet Key Exchange Protocol Version 2 (IKEv2) for Post-quantum Security](https://www.rfc-editor.org/rfc/rfc8784.html). Status: Proposed Standard. Jun 2020.
+
+#### Certificates, Signatures and Message Formats (X.509, CMS, JOSE/COSE, OpenPGP)
+- [RFC 9980. Post-Quantum Cryptography in OpenPGP](https://www.rfc-editor.org/rfc/rfc9980.html). Status: Proposed Standard. Jun 2026.
+- [RFC 9964. ML-DSA for JSON Object Signing and Encryption (JOSE) and CBOR Object Signing and Encryption (COSE)](https://www.rfc-editor.org/rfc/rfc9964.html). Status: Proposed Standard. May 2026.
 - [RFC 9936. Use of ML-KEM in the Cryptographic Message Syntax (CMS)](https://www.rfc-editor.org/rfc/rfc9936.html). Status: Proposed Standard. Mar 2026.
 - [RFC 9935. Internet X.509 Public Key Infrastructure - Algorithm Identifiers for the Module-Lattice-Based Key-Encapsulation Mechanism (ML-KEM)](https://www.rfc-editor.org/rfc/rfc9935.html). Status: Proposed Standard. Mar 2026.
 - [RFC 9909. Internet X.509 Public Key Infrastructure -- Algorithm Identifiers for the Stateless Hash-Based Digital Signature Algorithm (SLH-DSA)](https://www.rfc-editor.org/rfc/rfc9909.html). Status: Proposed Standard. Dec 2025.
 - [RFC 9882. Use of the ML-DSA Signature Algorithm in the Cryptographic Message Syntax (CMS)](https://www.rfc-editor.org/rfc/rfc9882.html). Status: Proposed Standard. Oct 2025.
 - [RFC 9881. Internet X.509 Public Key Infrastructure - Algorithm Identifiers for the Module-Lattice-Based Digital Signature Algorithm (ML-DSA)](https://www.rfc-editor.org/rfc/rfc9881.html). Status: Proposed Standard. Oct 2025.
-- [RFC 9858. Additional Parameter Sets for HSS/LMS Hash-Based Signatures](https://www.rfc-editor.org/rfc/rfc9858.html). Status: Informational. Oct 2025.
-- [RFC 9814. Use of the SLH-DSA Signature Algorithm in the Cryptographic Message Syntax (CMS)](https://www.rfc-editor.org/rfc/rfc9814.html). Jul 2025.
+- [RFC 9814. Use of the SLH-DSA Signature Algorithm in the Cryptographic Message Syntax (CMS)](https://www.rfc-editor.org/rfc/rfc9814.html). Status: Proposed Standard. Jul 2025.
 - [RFC 9810. Internet X.509 Public Key Infrastructure -- Certificate Management Protocol (CMP)](https://www.rfc-editor.org/rfc/rfc9810.html). Status: Proposed Standard. Jul 2025.
-- [RFC 9802. Use of the HSS and XMSS Hash-Based Signature Algorithms in Internet X.509 Public Key Infrastructure](https://www.rfc-editor.org/rfc/rfc9802.html). Proposed Standard. Jun 2025.
-- [RFC 9794. Terminology for Post-Quantum Traditional Hybrid Schemes](https://www.rfc-editor.org/rfc/rfc9794.html). Status: Informational. Jun 2025.
-- [RFC 9708. Use of the HSS/LMS Hash-Based Signature Algorithm in the Cryptographic Message Syntax (CMS)](https://www.rfc-editor.org/rfc/rfc9708.html). Proposed Standard. Jan 2025.
-- [RFC 8784. Mixing Preshared Keys in the Internet Key Exchange Protocol Version 2 (IKEv2) for Post-quantum Security](https://www.rfc-editor.org/rfc/rfc8784.html). Proposed Standard. Jun 2020.
-- [RFC 9370. Multiple Key Exchanges in the Internet Key Exchange Protocol Version 2 (IKEv2)](https://www.rfc-editor.org/rfc/rfc9370.html). Proposed Standard. May 2023.
+
+#### Hash-Based Signatures (LMS, HSS, XMSS)
+- [RFC 10033. Hash-Based Signatures: State and Backup Management](https://www.rfc-editor.org/rfc/rfc10033.html). Status: Informational. Sep 2026. Read before deploying any stateful scheme.
+- [RFC 9858. Additional Parameter Sets for HSS/LMS Hash-Based Signatures](https://www.rfc-editor.org/rfc/rfc9858.html). Status: Informational. Oct 2025.
+- [RFC 9802. Use of the HSS and XMSS Hash-Based Signature Algorithms in Internet X.509 Public Key Infrastructure](https://www.rfc-editor.org/rfc/rfc9802.html). Status: Proposed Standard. Jun 2025.
+- [RFC 9708. Use of the HSS/LMS Hash-Based Signature Algorithm in the Cryptographic Message Syntax (CMS)](https://www.rfc-editor.org/rfc/rfc9708.html). Status: Proposed Standard. Jan 2025.
 - [RFC 8554. LMS. Leighton-Micali Hash-Based Signatures](https://www.rfc-editor.org/rfc/rfc8554.html). Status: Informational. Apr 2019.
 - [RFC 8391. XMSS: eXtended Merkle Signature Scheme](https://www.rfc-editor.org/rfc/rfc8391.html). Status: Informational. May 2018.
+
 #### Drafts:
 - [Composite Module-Lattice-Based Digital Signature Algorithm (ML-DSA) for use in X.509 Public Key Infrastructure](https://datatracker.ietf.org/doc/draft-ietf-lamps-pq-composite-sigs/)
 - [Use of Composite ML-DSA in TLS 1.3](https://datatracker.ietf.org/doc/draft-reddy-tls-composite-mldsa)
