@@ -53,6 +53,7 @@ Whether you’re a **developer**, **researcher**, or **security architect**, thi
 - [RFC 9958. Post-Quantum Cryptography for Engineers](https://www.rfc-editor.org/rfc/rfc9958.html). Status: Informational. Jun 2026.
 - [RFC 9954. Hybrid Key Exchange in TLS 1.3](https://www.rfc-editor.org/rfc/rfc9954.html). Status: Informational. Jul 2026.
 - [RFC 9941. Secure Shell (SSH) Key Exchange Method Using Hybrid Streamlined NTRU Prime sntrup761 and X25519 with SHA-512: sntrup761x25519-sha512](https://www.rfc-editor.org/rfc/rfc9941.html). Status: Informational. Apr 2026.
+- [RFC 9936. Use of ML-KEM in the Cryptographic Message Syntax (CMS)](https://www.rfc-editor.org/rfc/rfc9936.html). Status: Proposed Standard. Mar 2026.
 - [RFC 9935. Internet X.509 Public Key Infrastructure - Algorithm Identifiers for the Module-Lattice-Based Key-Encapsulation Mechanism (ML-KEM)](https://www.rfc-editor.org/rfc/rfc9935.html). Status: Proposed Standard. Mar 2026.
 - [RFC 9909. Internet X.509 Public Key Infrastructure -- Algorithm Identifiers for the Stateless Hash-Based Digital Signature Algorithm (SLH-DSA)](https://www.rfc-editor.org/rfc/rfc9909.html). Status: Proposed Standard. Dec 2025.
 - [RFC 9882. Use of the ML-DSA Signature Algorithm in the Cryptographic Message Syntax (CMS)](https://www.rfc-editor.org/rfc/rfc9882.html). Status: Proposed Standard. Oct 2025.
