@@ -108,24 +108,30 @@ Whether you're a **developer**, **researcher**, or **security architect**, this 
 - [RFC 8554. LMS. Leighton-Micali Hash-Based Signatures](https://www.rfc-editor.org/rfc/rfc8554.html). Status: Informational. Apr 2019.
 - [RFC 8391. XMSS: eXtended Merkle Signature Scheme](https://www.rfc-editor.org/rfc/rfc8391.html). Status: Informational. May 2018.
 
-#### Drafts:
+### Drafts
+Drafts change quickly; check the datatracker for current status. Drafts that have since become RFCs are listed above, not here.
+
+#### PKI and Certificates
 - [Composite Module-Lattice-Based Digital Signature Algorithm (ML-DSA) for use in X.509 Public Key Infrastructure](https://datatracker.ietf.org/doc/draft-ietf-lamps-pq-composite-sigs/)
-- [Use of Composite ML-DSA in TLS 1.3](https://datatracker.ietf.org/doc/draft-reddy-tls-composite-mldsa)
-- [Merkle Tree Certificates](https://datatracker.ietf.org/doc/draft-ietf-plants-merkle-tree-certs/)
-- [KEM-based Authentication for IKEv2 with Post-quantum Security](https://datatracker.ietf.org/doc/draft-wang-ipsecme-kem-auth-ikev2/)
 - [Composite ML-KEM for use in X.509 Public Key Infrastructure](https://datatracker.ietf.org/doc/draft-ietf-lamps-pq-composite-kem)
-- [ML-KEM Post-Quantum Key Agreement for TLS 1.3](https://datatracker.ietf.org/doc/draft-ietf-tls-mlkem)
-- [Hybrid key exchange in TLS 1.3](https://datatracker.ietf.org/doc/html/draft-ietf-tls-hybrid-design)
-- [Adapting Constrained Devices for Post-Quantum Cryptography](https://datatracker.ietf.org/doc/draft-ietf-pquip-pqc-hsm-constrained)
-- [Composite ML-DSA for use in X.509 Public Key Infrastructure](https://datatracker.ietf.org/doc/draft-ietf-lamps-pq-composite-sigs)
-- [ML-DSA for Web Authentication](https://datatracker.ietf.org/doc/draft-vitap-ml-dsa-webauthn)
-- [TLS Key Share Prediction](https://datatracker.ietf.org/doc/draft-ietf-tls-key-share-prediction)
-- [Commercial National Security Algorithm (CNSA) Suite Profile for SSH](https://datatracker.ietf.org/doc/draft-becker-cnsa2-ssh-profile)
-- [PQ/T Composite Schemes for OpenPGP using NIST and Brainpool Elliptic Curve Domain Parameters](https://datatracker.ietf.org/doc/draft-ietf-openpgp-nist-bp-comp)
-- [Quantum-Resistant Cipher Suites for EDHOC](https://datatracker.ietf.org/doc/draft-spm-lake-pqsuites/)
-- [Post-Quantum and Post-Quantum/Traditional Hybrid Algorithms for HPKE](https://datatracker.ietf.org/doc/draft-ietf-hpke-pq/)
-- [Post-quantum Key Exchange with ML-KEM in the Internet Key Exchange Protocol Version 2 (IKEv2)](https://datatracker.ietf.org/doc/draft-ietf-ipsecme-ikev2-mlkem/)
+- [Merkle Tree Certificates](https://datatracker.ietf.org/doc/draft-ietf-plants-merkle-tree-certs/)
 - [Use of the FN-DSA Signature Algorithm in the Cryptographic Message Syntax (CMS)](https://datatracker.ietf.org/doc/draft-ietf-lamps-cms-fn-dsa/)
+
+#### TLS
+- [ML-KEM Post-Quantum Key Agreement for TLS 1.3](https://datatracker.ietf.org/doc/draft-ietf-tls-mlkem) (reported as approved and waiting in the RFC Editor queue as of Oct 2026)
+- [Use of ML-DSA in TLS 1.3](https://datatracker.ietf.org/doc/draft-ietf-tls-mldsa/)
+- [Use of Composite ML-DSA in TLS 1.3](https://datatracker.ietf.org/doc/draft-reddy-tls-composite-mldsa)
+- [TLS Key Share Prediction](https://datatracker.ietf.org/doc/draft-ietf-tls-key-share-prediction)
+
+#### IPsec, SSH, HPKE, Other Protocols
+- [Post-quantum Key Exchange with ML-KEM in the Internet Key Exchange Protocol Version 2 (IKEv2)](https://datatracker.ietf.org/doc/draft-ietf-ipsecme-ikev2-mlkem/)
+- [KEM-based Authentication for IKEv2 with Post-quantum Security](https://datatracker.ietf.org/doc/draft-wang-ipsecme-kem-auth-ikev2/)
+- [Post-Quantum and Post-Quantum/Traditional Hybrid Algorithms for HPKE](https://datatracker.ietf.org/doc/draft-ietf-hpke-pq/)
+- [ML-DSA for Web Authentication](https://datatracker.ietf.org/doc/draft-vitap-ml-dsa-webauthn)
+- [Quantum-Resistant Cipher Suites for EDHOC](https://datatracker.ietf.org/doc/draft-spm-lake-pqsuites/)
+- [PQ/T Composite Schemes for OpenPGP using NIST and Brainpool Elliptic Curve Domain Parameters](https://datatracker.ietf.org/doc/draft-ietf-openpgp-nist-bp-comp)
+- [Commercial National Security Algorithm (CNSA) Suite Profile for SSH](https://datatracker.ietf.org/doc/draft-becker-cnsa2-ssh-profile)
+- [Adapting Constrained Devices for Post-Quantum Cryptography](https://datatracker.ietf.org/doc/draft-ietf-pquip-pqc-hsm-constrained)
 
 ## Books and Handbooks
 - [The PQC Migration Handbook](https://english.aivd.nl/documents/2024/12/3/the-pqc-migration-handbook). AIVD, CWI, TNO. Dec, 2024.
