@@ -138,6 +138,19 @@ Drafts change quickly; check the datatracker for current status. Drafts that hav
 
 ## Migration Guides and Strategies
 
+### Industry Roadmaps and Practitioner Guides
+- [PQC in Plaintext: Google Cloud's post-quantum cryptography roadmap](https://cloud.google.com/blog/products/identity-security/pqc-in-plaintext-google-clouds-post-quantum-cryptography-roadmap/). Google. Aug 12, 2026.
+- [Accelerating the quantum-safe timeline](https://www.microsoft.com/en-us/security/blog/2026/06/30/microsoft-advances-quantum-safe-security-as-the-risk-timeline-shifts/). Microsoft. Jun 30, 2026.
+- [Where to Go Next with Quantum-Safe Certificates](https://bughunters.google.com/blog/next-with-quantum-safe-certificates). Google. Jun 1, 2026.
+- [Post-Quantum Cryptography Migration at Meta: Framework, Lessons, and Takeaways](https://engineering.fb.com/2026/04/16/security/post-quantum-cryptography-migration-at-meta-framework-lessons-and-takeaways/) Meta. Apr 16, 2026.
+- [AWS post-quantum cryptography migration plan](https://aws.amazon.com/blogs/security/aws-post-quantum-cryptography-migration-plan/). AWS. 5 Dec, 2024. Updated: April 23, 2026.
+- [Cloudflare targets 2029 for full post-quantum security](https://blog.cloudflare.com/post-quantum-roadmap/). Cloudflare. Apr 4, 2026.
+- [Quantum frontiers may be closer than they appear](https://blog.google/innovation-and-ai/technology/safety-security/cryptography-migration-timeline/). Google. Mar 25, 2026.
+- [NIS2, DORA, and the EU Post-Quantum Roadmap](https://postquantum.com/quantum-policies/nis2-dora-pqc-quantum/). postquantum.com. 6 Jan, 2026.
+- [A Practitioner's Guide to Post-Quantum Cryptography](https://cloudsecurityalliance.org/artifacts/a-practitioners-guide-to-post-quantum-cryptography#). Cloud Security Alliance. 11 Oct, 2025.
+- [Post-Quantum Cryptography Migration Roadmap](https://pqcc.org/wp-content/uploads/2025/05/PQC-Migration-Roadmap-PQCC-2.pdf). Post-Quantum Cryptography Coalition. May, 2025.
+- [Google's Threat model for Post-Quantum Cryptography](https://bughunters.google.com/blog/5108747984306176/google-s-threat-model-for-post-quantum-cryptography). Google. Mar 11, 2024.
+
 ### Government and Agency Guidance
 Grouped by region; newest first. NIST publications are under [NIST](#nist).
 
@@ -148,7 +161,7 @@ Grouped by region; newest first. NIST publications are under [NIST](#nist).
 **European Union**
 - [A Coordinated Implementation Roadmap for the Transition to Post-Quantum Cryptography](https://digital-strategy.ec.europa.eu/en/library/coordinated-implementation-roadmap-transition-post-quantum-cryptography). European Commission. June 23, 2025.
 - [Recommendation on a Coordinated Implementation Roadmap for the transition to Post-Quantum Cryptography](https://digital-strategy.ec.europa.eu/en/library/recommendation-coordinated-implementation-roadmap-transition-post-quantum-cryptography). European Commission. Apr 11, 2024.
-- [ENISA: Cryptography topic page](https://www.enisa.europa.eu/topics/cryptography) - includes PQC reports.
+- [ENISA: Cryptography topic page](https://www.enisa.europa.eu/topics/cryptography).
 - [ETSI Quantum-Safe Cryptography Technical Committee](https://www.etsi.org/committee/1430-qsc).
 
 **US**
@@ -192,27 +205,6 @@ Grouped by region; newest first. NIST publications are under [NIST](#nist).
 - [Post Quantum Cryptography - Guidelines for Telecom Use Cases - Executive Summary](https://www.gsma.com/newsroom/wp-content/uploads//PQC-Guidelines-for-Telco-Use-Cases-Executive-Summary.pdf). GSMA. Feb, 2024.
 - [Post Quantum Cryptography - Guidelines for Telco Use Cases](https://www.gsma.com/newsroom/wp-content/uploads//PQ.03-Post-Quantum-Cryptography-Guidelines-for-Telecom-Use-v1.0.pdf). GSMA. Feb 22, 2024.
 
-
-
-
-## Migration Guides and Strategies
-- [PQC in Plaintext: Google Cloud’s post-quantum cryptography roadmap](https://cloud.google.com/blog/products/identity-security/pqc-in-plaintext-google-clouds-post-quantum-cryptography-roadmap/). Google. Aug 12, 2026.
-- [Accelerating the quantum-safe timeline](https://www.microsoft.com/en-us/security/blog/2026/06/30/microsoft-advances-quantum-safe-security-as-the-risk-timeline-shifts/). Microsoft. Jun 30, 2026.
-- [Securing The Nation Against Advanced Cryptographic Attacks](https://www.whitehouse.gov/presidential-actions/2026/06/securing-the-nation-against-advanced-cryptographic-attacks/). The White House. Jun 22, 2026.
-- [Where to Go Next with Quantum-Safe Certificates](https://bughunters.google.com/blog/next-with-quantum-safe-certificates). Google. Jun 1, 2026.
-- [Post-Quantum Cryptography Migration at Meta: Framework, Lessons, and Takeaways](https://engineering.fb.com/2026/04/16/security/post-quantum-cryptography-migration-at-meta-framework-lessons-and-takeaways/) Meta. Apr 16, 2026.
-- [Cloudflare targets 2029 for full post-quantum security](https://blog.cloudflare.com/post-quantum-roadmap/). Cloudflare. Apr 4, 2026.
-- [Quantum frontiers may be closer than they appear](https://blog.google/innovation-and-ai/technology/safety-security/cryptography-migration-timeline/). Google. Mar 25, 2026.
-- [Prioritising post-quantum cryptography migration activities in financial services](https://www.europol.europa.eu/publications-events/publications/prioritising-post-quantum-cryptography-migration-activities-in-financial-services). Europol. 21 Jan, 2026.
-- [NIS2, DORA, and the EU Post-Quantum Roadmap](https://postquantum.com/quantum-policies/nis2-dora-pqc-quantum/). postquantum.com. 6 Jan, 2026.
-- [A Practitioner’s Guide to Post-Quantum Cryptography](https://cloudsecurityalliance.org/artifacts/a-practitioners-guide-to-post-quantum-cryptography#). Cloud Security Alliance. 11 Oct, 2025.
-- [Guidelines for Cryptography](https://www.cyber.gov.au/resources-business-and-government/essential-cyber-security/ism/cyber-security-guidelines/guidelines-cryptography). Australian Signals Directorate. 12 Dec, 2024.
-- [Recommendation on a Coordinated Implementation Roadmap for the transition to Post-Quantum Cryptography](https://digital-strategy.ec.europa.eu/en/library/recommendation-coordinated-implementation-roadmap-transition-post-quantum-cryptography). European Commission. Apr 11, 2024.
-- [Google's Threat model for Post-Quantum Cryptography](https://bughunters.google.com/blog/5108747984306176/google-s-threat-model-for-post-quantum-cryptography). Google. Mar 11, 2024.
-- [PQC - Guidelines for Telco Use Cases - Executive Summary](https://www.gsma.com/newsroom/wp-content/uploads//PQC-Guidelines-for-Telco-Use-Cases-Executive-Summary.pdf). GSMA. Feb, 2024.
-- [Post Quantum Cryptography - Guidelines for Telco Use Cases](https://www.gsma.com/newsroom/wp-content/uploads//PQ.03-Post-Quantum-Cryptography-Guidelines-for-Telecom-Use-v1.0.pdf). GSMA. Feb 22, 2024.
-- [Summary of NATO’s Quantum Technologies Strategy](https://www.nato.int/cps/en/natohq/official_texts_221777.htm). NATO. Jan 17, 2024.
-
 ## Conferences and Events
 - [Post-Quantum Cryptography Conference. October 28 - 30, 2025 - Kuala Lumpur, Malaysia](https://pkic.org/events/2025/pqc-conference-kuala-lumpur-my/). PKI Consortium. Oct, 2025.
 - [OpenSSL Conference. Prague 2025. October 7-9, 2025](https://www.youtube.com/@OpenSSLConference). OpenSSL. Oct, 2025.
@@ -231,7 +223,6 @@ Grouped by region; newest first. NIST publications are under [NIST](#nist).
 - [Quantum-safe security: Progress towards next-generation cryptography](https://www.microsoft.com/en-us/security/blog/2025/08/20/quantum-safe-security-progress-towards-next-generation-cryptography/). Microsoft. Aug 20, 2025.
 - [Ballot SMC013: Enable PQC Algorithms for S/MIME](https://cabforum.org/2025/07/02/ballot-smc-013/). CA/Browser Forum. Jul 2, 2025.
 - [A Coordinated Implementation Roadmap for the Transition to Post-Quantum Cryptography](https://digital-strategy.ec.europa.eu/en/library/coordinated-implementation-roadmap-transition-post-quantum-cryptography). European Commission. June 23, 2025.
-- [Post-Quantum Cryptography Migration Roadmap](https://pqcc.org/wp-content/uploads/2025/05/PQC-Migration-Roadmap-PQCC-2.pdf). Post-Quantum Cryptography Coalition. May, 2025.
 - [Post-Quantum Cryptography Comes to Windows Insiders and Linux](https://techcommunity.microsoft.com/blog/microsoft-security-blog/post-quantum-cryptography-comes-to-windows-insiders-and-linux/4413803). Microsoft. May 19, 2025.
 - [Prepping for post-quantum: a beginner’s guide to lattice cryptography](https://blog.cloudflare.com/lattice-crypto-primer/). Cloudflare. Mar 21, 2025.
 - [Post Quantum Computing Security](https://www.5gamericas.org/wp-content/uploads/2025/02/WP_PQCS-.pdf). 5G Americas. Feb, 2025.
