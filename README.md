@@ -39,17 +39,33 @@ Whether you're a **developer**, **researcher**, or **security architect**, this 
 
 ---
 ## NIST
-- [Post-Quantum Cryptography Resource Hub](https://www.nsa.gov/Cybersecurity/Post-Quantum-Cryptography-Resource-Hub/)
+### Main Page
 - [Post-Quantum Cryptography](https://www.nist.gov/pqcrypto)
-#### NIST Finalized PQC Standards
-- [ML-KEM - FIPS 203](https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.203.pdf) Module-Lattice-Based Key-Encapsulation Mechanism Standard ([CRYSTALS-Kyber](https://pq-crystals.org/kyber/) derived). Aug 13, 2024.
-- [ML-DSA - FIPS 204](https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.204.pdf) Module-Lattice-Based Digital Signature Standard ([CRYSTALS-Dilithium](https://pq-crystals.org/dilithium/) derived). Aug 13, 2024.
-- [SLH-DSA - FIPS 205](https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.205.pdf) Stateless Hash-Based Digital Signature Standard. ([SPHINCS+](https://sphincs.org/) derived). Aug 13, 2024.
-#### NIST Recommendation for Stateful Hash-Based Signature Schemes
-- [NIST SP 800-208](https://csrc.nist.gov/pubs/sp/800/208/final), Recommendation for Stateful Hash-Based Signature Schemes [LMS](https://www.rfc-editor.org/rfc/rfc8554.html), [XMSS](https://www.rfc-editor.org/rfc/rfc8391.html)
-#### Additional / Pre-existing Standards
-- [FN-DSA](https://csrc.nist.gov/presentations/2024/navigating-floating-point-challenges-in-falcon) - [(Falcon)](https://falcon-sign.info)
-- [HQC](https://www.nist.gov/news-events/news/2025/03/nist-selects-hqc-fifth-algorithm-post-quantum-encryption) - [(Hamming Quasi-Cyclic)](https://pqc-hqc.org/). Backup for ML-KEM. March 11, 2025.
+
+### Project Pages
+- [Post-Quantum Cryptography project](https://csrc.nist.gov/projects/post-quantum-cryptography) - the authoritative status page for the whole programme.
+- [Additional Digital Signature Schemes](https://csrc.nist.gov/projects/pqc-dig-sig) - the signature "on-ramp", looking for schemes beyond lattices.
+- [PQC Forum](https://groups.google.com/a/list.nist.gov/g/pqc-forum) - NIST's public discussion list.
+
+### NIST Finalized PQC Standards
+- [ML-KEM - FIPS 203](https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.203.pdf) Module-Lattice-Based Key-Encapsulation Mechanism Standard ([CRYSTALS-Kyber](https://pq-crystals.org/kyber/) derived). Aug 13, 2024. ([NIST page](https://csrc.nist.gov/pubs/fips/203/final))
+- [ML-DSA - FIPS 204](https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.204.pdf) Module-Lattice-Based Digital Signature Standard ([CRYSTALS-Dilithium](https://pq-crystals.org/dilithium/) derived). Aug 13, 2024. ([NIST page](https://csrc.nist.gov/pubs/fips/204/final))
+- [SLH-DSA - FIPS 205](https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.205.pdf) Stateless Hash-Based Digital Signature Standard ([SPHINCS+](https://sphincs.org/) derived). Aug 13, 2024. ([NIST page](https://csrc.nist.gov/pubs/fips/205/final))
+
+### Selected for Standardization (In Development)
+- [FN-DSA (Future FIPS 206)](https://csrc.nist.gov/presentations/2024/navigating-floating-point-challenges-in-falcon) - Falcon-based signature scheme. Selected 2022. **Not yet a final standard**; until it is published, the [Falcon submission](https://falcon-sign.info) is the reference specification.
+- [HQC](https://www.nist.gov/news-events/news/2025/03/nist-selects-hqc-fifth-algorithm-post-quantum-encryption) - [Hamming Quasi-Cyclic](https://pqc-hqc.org/), a code-based backup for ML-KEM with different hardness assumptions. Selected Mar 11, 2025; the standard is still being drafted.
+
+### NIST Special Publications and Reports
+- [NIST SP 800-227](https://csrc.nist.gov/pubs/sp/800/227/final), Recommendations for Key-Encapsulation Mechanisms. Sep 2025.
+- [NIST IR 8547 (Initial Public Draft)](https://csrc.nist.gov/pubs/ir/8547/ipd), Transition to Post-Quantum Cryptography Standards. Proposes deprecating quantum-vulnerable public-key algorithms after 2030 and disallowing them after 2035. NIST. Nov 12, 2024.
+- [NIST SP 800-208](https://csrc.nist.gov/pubs/sp/800/208/final), Recommendation for Stateful Hash-Based Signature Schemes ([LMS](https://www.rfc-editor.org/rfc/rfc8554.html), [XMSS](https://www.rfc-editor.org/rfc/rfc8391.html)). Stateful: reusing a one-time key is catastrophic. Oct 2020.
+
+### NCCoE Migration Project
+- [NIST SPECIAL PUBLICATION 1800-38C](https://www.nccoe.nist.gov/sites/default/files/2023-12/pqc-migration-nist-sp-1800-38c-preliminary-draft.pdf) Migration to Post-Quantum Cryptography Quantum Readiness: Testing Draft Standards. Preliminary draft. NIST. Dec 2023.
+- [NIST SPECIAL PUBLICATION 1800-38B](https://www.nccoe.nist.gov/sites/default/files/2023-12/pqc-migration-nist-sp-1800-38b-preliminary-draft.pdf) Migration to Post-Quantum Cryptography Quantum Readiness: Cryptographic Discovery. Preliminary draft. NIST. Dec 2023.
+- [NIST SPECIAL PUBLICATION 1800-38A](https://www.nccoe.nist.gov/sites/default/files/2023-04/pqc-migration-nist-sp-1800-38a-preliminary-draft.pdf) Migration to Post-Quantum Cryptography: Preparation for Considering the Implementation and Adoption of Quantum Safe Cryptography. Preliminary draft. NIST. May 2, 2023.
+
 ## IETF
 #### RFC:
 - [RFC 10042. Post-Quantum/Traditional Hybrid Key Exchange with the Module-Lattice-Based Key-Encapsulation Mechanism for Use in SSH](https://www.rfc-editor.org/rfc/rfc10042.html). Status: Informational. Aug 2026.
