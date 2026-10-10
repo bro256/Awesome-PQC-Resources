@@ -3,17 +3,23 @@ A curated collection of cutting-edge resources on **PQC (post quantum cryptograp
 
 ![Last Commit](https://img.shields.io/github/last-commit/bro256/Awesome-Post-Quantum-Cryptography-Resources?label=Last%20Updated)
 
-## Introduction  
-Quantum computers will one day be powerful enough to break today’s widely used cryptographic systems, such as RSA and ECC.
+## Introduction
+Quantum computers will one day be powerful enough to break today's widely used cryptographic systems, such as RSA and ECC.
 To prepare for this shift, **post-quantum cryptography (PQC)** is being developed to ensure our digital world remains secure in the quantum era.
 
 This repository brings together:
 - **Standards & drafts** from NIST, IETF, and other bodies.
-- **Handbooks, guides, and migration strategies** for organizations.
-- **Implementations, tools, and software** to experiment with PQC today.
+- **Handbooks, guides, and migration strategies** for organizations and governments.
+- **Implementations, tools, and software** to experiment with PQC today, including test vectors and cryptographic inventory (CBOM) tooling.
 - **Research papers, publications, and events** driving the field forward.
 
-Whether you’re a **developer**, **researcher**, or **security architect**, this list will help you stay up-to-date and navigate the transition toward **quantum-resistant cryptographic systems**.
+Whether you're a **developer**, **researcher**, or **security architect**, this list will help you stay up-to-date and navigate the transition toward **quantum-resistant cryptographic systems**.
+
+### Conventions
+- Dated sections are sorted **newest first**; other lists are alphabetical.
+- Dates use the form `Mon DD, YYYY` (or `Mon YYYY` when the day is unknown).
+- Status words follow the source: *Final*, *Proposed Standard*, *Informational*, *Draft*.
+- Found something stale? [Open an issue](#how-to-submit).
 
 
 ## Table of Contents
