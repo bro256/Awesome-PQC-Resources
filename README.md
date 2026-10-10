@@ -180,6 +180,7 @@ Whether you’re a **developer**, **researcher**, or **security architect**, thi
  - [CIRCL](https://github.com/cloudflare/circl)
  - [OpenSSL](https://openssl-library.org/)
  - [Open Quantum Safe](https://openquantumsafe.org/)
+ - [PQC Readiness Scan](https://github.com/johnInarti/pqc-readiness-action) — GitHub Action that statically scans a repository for quantum-vulnerable cryptography (RSA, ECDSA, ECDH/X25519, Ed25519/Ed448, finite-field Diffie-Hellman, DSA, plus committed SSH/X.509 key material and manifest dependencies) and writes a CycloneDX 1.6 CBOM (ECMA-424). A static scan is not a proof of absence, and the tool is not a compliance certification. Apache-2.0. FRACTAL AI S.A.S. October 10, 2026.
  - [PQClean](https://github.com/PQClean/PQClean/)
  - [wolfCrypt](https://www.wolfssl.com/products/wolfcrypt/)
  - [wolfSSL](https://www.wolfssl.com/)
