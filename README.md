@@ -30,7 +30,7 @@ Whether you're a **developer**, **researcher**, or **security architect**, this 
 5. [Conferences and Events](#conferences-and-events)
 6. [Research & Publications](#research-and-publications)
 7. [Implementations](#implementations)
-8. [Communities](#communities)
+8. [Communities and Research Resources](#communities-and-research-resources)
 9. [Software, Tools, Libraries](#software-tools-libraries)
 10. [Learning Resources](#learning-resources)
 11. [Talks & Videos](#talks-videos)
@@ -268,8 +268,14 @@ What is shipping in products and protocols. Libraries and code are under [Softwa
 ### SSH
 - [OpenSSH: post-quantum cryptography](https://www.openssh.org/pq.html). OpenSSH.
 
-## Communities
+## Communities and Research Resources
 - [PKI Consortium](https://pkic.org/)
+- [Post-Quantum Cryptography Alliance (PQCA)](https://pqca.org/)
+- [Open Quantum Safe](https://openquantumsafe.org/)
+- [PQC Forum](https://groups.google.com/a/list.nist.gov/g/pqc-forum)
+- [IETF PQUIP working group](https://datatracker.ietf.org/wg/pquip/about/)
+- [Post-Quantum Cryptography Coalition](https://pqcc.org/)
+- [IACR ePrint Archive](https://eprint.iacr.org/)
 
 ## Software, Tools, Libraries
 - [Botan](https://botan.randombit.net/)
