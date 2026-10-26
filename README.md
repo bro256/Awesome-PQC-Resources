@@ -142,6 +142,7 @@ Drafts change quickly; check the datatracker for current status. Drafts that hav
 ## Migration Guides and Strategies
 
 ### Industry Roadmaps and Practitioner Guides
+- [Using AI to chart a course for our post-quantum migration](https://blog.cloudflare.com/ai-driven-cryptography-discovery/). Cloudflare. Sep 29, 2026.
 - [PQC in Plaintext: Google Cloud's post-quantum cryptography roadmap](https://cloud.google.com/blog/products/identity-security/pqc-in-plaintext-google-clouds-post-quantum-cryptography-roadmap/). Google. Aug 12, 2026.
 - [Accelerating the quantum-safe timeline](https://www.microsoft.com/en-us/security/blog/2026/06/30/microsoft-advances-quantum-safe-security-as-the-risk-timeline-shifts/). Microsoft. Jun 30, 2026.
 - [Where to Go Next with Quantum-Safe Certificates](https://bughunters.google.com/blog/next-with-quantum-safe-certificates). Google. Jun 1, 2026.
