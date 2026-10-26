@@ -57,6 +57,7 @@ Whether you're a **developer**, **researcher**, or **security architect**, this 
 - [HQC](https://www.nist.gov/news-events/news/2025/03/nist-selects-hqc-fifth-algorithm-post-quantum-encryption) - [Hamming Quasi-Cyclic](https://pqc-hqc.org/), a code-based backup for ML-KEM with different hardness assumptions. Selected Mar 11, 2025; the standard is still being drafted.
 
 ### NIST Special Publications and Reports
+- [NIST CSWP 39, Considerations for Achieving Crypto Agility: Strategies and Practices](https://csrc.nist.gov/pubs/cswp/39/upd1/considerations-for-achieving-crypto-agility/final). Final Dec 19, 2025; updated Jun 29, 2026.
 - [NIST SP 800-227](https://csrc.nist.gov/pubs/sp/800/227/final), Recommendations for Key-Encapsulation Mechanisms. Sep 2025.
 - [NIST IR 8547 (Initial Public Draft)](https://csrc.nist.gov/pubs/ir/8547/ipd), Transition to Post-Quantum Cryptography Standards. Proposes deprecating quantum-vulnerable public-key algorithms after 2030 and disallowing them after 2035. NIST. Nov 12, 2024.
 - [NIST SP 800-208](https://csrc.nist.gov/pubs/sp/800/208/final), Recommendation for Stateful Hash-Based Signature Schemes ([LMS](https://www.rfc-editor.org/rfc/rfc8554.html), [XMSS](https://www.rfc-editor.org/rfc/rfc8391.html)). Stateful: reusing a one-time key is catastrophic. Oct 2020.
