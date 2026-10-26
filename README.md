@@ -113,6 +113,7 @@ Whether you're a **developer**, **researcher**, or **security architect**, this 
 Drafts change quickly; check the datatracker for current status. Drafts that have since become RFCs are listed above, not here.
 
 #### PKI and Certificates
+- [Internet X.509 Public Key Infrastructure -- Algorithm Identifiers for the Fast-Fourier Transform over NTRU-Lattice-Based Digital Signature Algorithm (FN-DSA)](https://datatracker.ietf.org/doc/draft-ietf-lamps-fn-dsa-certificates/)
 - [Composite Module-Lattice-Based Digital Signature Algorithm (ML-DSA) for use in X.509 Public Key Infrastructure](https://datatracker.ietf.org/doc/draft-ietf-lamps-pq-composite-sigs/)
 - [Composite ML-KEM for use in X.509 Public Key Infrastructure](https://datatracker.ietf.org/doc/draft-ietf-lamps-pq-composite-kem)
 - [Merkle Tree Certificates](https://datatracker.ietf.org/doc/draft-ietf-plants-merkle-tree-certs/)
