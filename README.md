@@ -170,7 +170,10 @@ Grouped by region; newest first. NIST publications are under [NIST](#nist).
 - [ETSI Quantum-Safe Cryptography Technical Committee](https://www.etsi.org/committee/1430-qsc).
 
 **US**
-- [NSA Post-Quantum Cybersecurity Resources](https://www.nsa.gov/Cybersecurity/Post-Quantum-Cybersecurity-Resources/) - entry point for CNSA 2.0 material.
+- [NSA Post-Quantum Cryptography Resource Hub](https://www.nsa.gov/cybersecurity/post-quantum-cryptography-resource-hub/). NSA.
+- [NSA Post-Quantum Cybersecurity Resources](https://www.nsa.gov/Cybersecurity/Post-Quantum-Cybersecurity-Resources/). NSA.
+- [Quantum Cryptographic Solutions are Limited Compared to Post-Quantum Algorithms](https://www.nsa.gov/Cybersecurity/Post-Quantum-Cryptography-Resource-Hub/Article-Display/Article/4616320/quantum-cryptographic-solutions-are-limited-compared-to-post-quantum-algorithms/). NSA. Oct 1, 2026.
+- [OMB M-26-15: Execution of the Migration to Post-Quantum Cryptography](https://www.whitehouse.gov/wp-content/uploads/2026/06/M-26-15-Execution-of-the-Migration-to-Post-Quantum-Cryptography.pdf). OMB. Jun 24, 2026.
 - [The White House: Securing The Nation Against Advanced Cryptographic Attacks](https://www.whitehouse.gov/presidential-actions/2026/06/securing-the-nation-against-advanced-cryptographic-attacks/). Jun 22, 2026.
 - [CISA: Strategy for Migrating to Automated Post-Quantum Cryptography Discovery and Inventory Tools](https://www.cisa.gov/sites/default/files/2024-09/Strategy-for-Migrating-to-Automated-PQC-Discovery-and-Inventory-Tools.pdf). Sep 2024.
 - [CISA: Quantum-Readiness: Migration to Post-Quantum Cryptography](https://www.cisa.gov/sites/default/files/2023-08/Quantum%20Readiness_Final_CLEAR_508c%20%283%29.pdf). Aug 2023.
