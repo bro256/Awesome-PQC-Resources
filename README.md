@@ -293,6 +293,7 @@ What is shipping in products and protocols. Libraries and code are under [Softwa
 - [PQClean](https://github.com/PQClean/PQClean/)
 - [wolfCrypt](https://www.wolfssl.com/products/wolfcrypt/)
 - [wolfSSL](https://www.wolfssl.com/)
+- [TLSView](https://addons.mozilla.org/firefox/addon/tlsview/) - Firefox extension showing whether a site's TLS key exchange is traditional, hybrid post-quantum (PQ/T) or pure post-quantum
 
 ## Learning Resources
 
