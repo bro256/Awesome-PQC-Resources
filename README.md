@@ -23,17 +23,18 @@ Whether you're a **developer**, **researcher**, or **security architect**, this 
 
 
 ## Table of Contents
+## Table of Contents
 1. [NIST](#nist)
 2. [IETF](#ietf)
 3. [Books and Handbooks](#books-and-handbooks)
 4. [Migration Guides and Strategies](#migration-guides-and-strategies)
 5. [Conferences and Events](#conferences-and-events)
 6. [Research & Publications](#research-and-publications)
-7. [Implementations](#implementations)
+7. [Implementations and Deployments](#implementations-and-deployments)
 8. [Communities and Research Resources](#communities-and-research-resources)
 9. [Software, Tools, Libraries](#software-tools-libraries)
 10. [Learning Resources](#learning-resources)
-11. [Talks & Videos](#talks-videos)
+11. [Talks & Videos](#talks-and-videos)
 12. [Contributions](#contributions)
 
 
@@ -44,7 +45,7 @@ Whether you're a **developer**, **researcher**, or **security architect**, this 
 
 ### Project Pages
 - [Post-Quantum Cryptography project](https://csrc.nist.gov/projects/post-quantum-cryptography) - the authoritative status page for the whole programme.
-- [Additional Digital Signature Schemes](https://csrc.nist.gov/projects/pqc-dig-sig) - the signature "on-ramp", looking for schemes beyond lattices.
+- [Additional Digital Signature Schemes](https://csrc.nist.gov/projects/pqc-dig-sig) - the signature "on-ramp", looking for schemes beyond lattices. Round 3 (nine candidates) announced May 14, 2026.
 - [PQC Forum](https://groups.google.com/a/list.nist.gov/g/pqc-forum) - NIST's public discussion list.
 
 ### NIST Finalized PQC Standards
@@ -53,16 +54,20 @@ Whether you're a **developer**, **researcher**, or **security architect**, this 
 - [SLH-DSA - FIPS 205](https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.205.pdf) Stateless Hash-Based Digital Signature Standard ([SPHINCS+](https://sphincs.org/) derived). Aug 13, 2024. ([NIST page](https://csrc.nist.gov/pubs/fips/205/final))
 
 ### Selected for Standardization (In Development)
-- [FN-DSA (Future FIPS 206)](https://csrc.nist.gov/presentations/2024/navigating-floating-point-challenges-in-falcon) - Falcon-based signature scheme. Selected 2022. **Not yet a final standard**; until it is published, the [Falcon submission](https://falcon-sign.info) is the reference specification.
-- [HQC](https://www.nist.gov/news-events/news/2025/03/nist-selects-hqc-fifth-algorithm-post-quantum-encryption) - [Hamming Quasi-Cyclic](https://pqc-hqc.org/), a code-based backup for ML-KEM with different hardness assumptions. Selected Mar 11, 2025; the standard is still being drafted.
+- [FN-DSA (Future FIPS 206)](https://csrc.nist.gov/presentations/2024/navigating-floating-point-challenges-in-falcon) - Falcon-based signature scheme. Selected 2022. **Not yet a final standard, and no Initial Public Draft has been published as of Nov 2026**; until it is, the [Falcon submission](https://falcon-sign.info) is the reference specification.
+- [HQC (Future FIPS 207)](https://www.nist.gov/news-events/news/2025/03/nist-selects-hqc-fifth-algorithm-post-quantum-encryption) - [Hamming Quasi-Cyclic](https://pqc-hqc.org/), a code-based backup for ML-KEM with different hardness assumptions. Selected Mar 11, 2025; the draft standard has not been published yet (NIST targets a final standard in 2027).
 
 ### NIST Special Publications and Reports
+- [NIST IR 8547, Transition to Post-Quantum Cryptography Standards](https://csrc.nist.gov/pubs/ir/8547/final). **Final** Oct 27, 2026 (Initial Public Draft was Nov 12, 2024). Quantum-vulnerable public-key algorithms deprecated after 2030 and disallowed after 2035; aligned with Executive Order 14412 and OMB M-26-15. ([NIST news](https://www.nist.gov/news-events/news/2026/10/nist-report-provides-guidelines-transition-post-quantum-cryptography))
+- [NIST IR 8610, Status Report on the Second Round of the Additional Digital Signature Schemes](https://www.nist.gov/news-events/news/2026/05/nine-candidates-advance-third-round-additional-digital-signatures-pqc). Nine candidates advance to Round 3: FAEST, HAWK, MAYO, MQOM, QR-UOV, SDitH, SNOVA, SQIsign, UOV. HAWK was withdrawn on Jul 29, 2026. May 14, 2026.
+- [NIST SP 800-230 (Initial Public Draft)](https://csrc.nist.gov/pubs/sp/800/230/ipd), Additional SLH-DSA Parameter Sets for Limited Signature Use Cases. Apr 13, 2026.
 - [NIST CSWP 39, Considerations for Achieving Crypto Agility: Strategies and Practices](https://csrc.nist.gov/pubs/cswp/39/upd1/considerations-for-achieving-crypto-agility/final). Final Dec 19, 2025; updated Jun 29, 2026.
 - [NIST SP 800-227](https://csrc.nist.gov/pubs/sp/800/227/final), Recommendations for Key-Encapsulation Mechanisms. Sep 2025.
-- [NIST IR 8547 (Initial Public Draft)](https://csrc.nist.gov/pubs/ir/8547/ipd), Transition to Post-Quantum Cryptography Standards. Proposes deprecating quantum-vulnerable public-key algorithms after 2030 and disallowing them after 2035. NIST. Nov 12, 2024.
 - [NIST SP 800-208](https://csrc.nist.gov/pubs/sp/800/208/final), Recommendation for Stateful Hash-Based Signature Schemes ([LMS](https://www.rfc-editor.org/rfc/rfc8554.html), [XMSS](https://www.rfc-editor.org/rfc/rfc8391.html)). Stateful: reusing a one-time key is catastrophic. Oct 2020.
 
 ### NCCoE Migration Project
+- [Migration to Post-Quantum Cryptography project page](https://www.nccoe.nist.gov/applied-cryptography/migration-to-pqc) - NCCoE project home, with all volumes and updates.
+- [NIST CSWP 48 (Initial Public Draft), Mappings of Migration to PQC Project Capabilities to Risk Framework Documents](https://csrc.nist.gov/pubs/cswp/48/mapping-migration-to-pqc-project-capabilities-to-r/ipd). Sep 18, 2025.
 - [NIST SPECIAL PUBLICATION 1800-38C](https://www.nccoe.nist.gov/sites/default/files/2023-12/pqc-migration-nist-sp-1800-38c-preliminary-draft.pdf) Migration to Post-Quantum Cryptography Quantum Readiness: Testing Draft Standards. Preliminary draft. NIST. Dec 2023.
 - [NIST SPECIAL PUBLICATION 1800-38B](https://www.nccoe.nist.gov/sites/default/files/2023-12/pqc-migration-nist-sp-1800-38b-preliminary-draft.pdf) Migration to Post-Quantum Cryptography Quantum Readiness: Cryptographic Discovery. Preliminary draft. NIST. Dec 2023.
 - [NIST SPECIAL PUBLICATION 1800-38A](https://www.nccoe.nist.gov/sites/default/files/2023-04/pqc-migration-nist-sp-1800-38a-preliminary-draft.pdf) Migration to Post-Quantum Cryptography: Preparation for Considering the Implementation and Adoption of Quantum Safe Cryptography. Preliminary draft. NIST. May 2, 2023.
@@ -80,6 +85,7 @@ Whether you're a **developer**, **researcher**, or **security architect**, this 
 
 #### Overview and Terminology
 - [RFC 9958. Post-Quantum Cryptography for Engineers](https://www.rfc-editor.org/rfc/rfc9958.html). Status: Informational. Jun 2026.
+- [RFC 9955. Hybrid Signature Spectrums](https://www.rfc-editor.org/rfc/rfc9955.html). Status: Informational. Jul 2026.
 - [RFC 9794. Terminology for Post-Quantum Traditional Hybrid Schemes](https://www.rfc-editor.org/rfc/rfc9794.html). Status: Informational. Jun 2025.
 
 #### Key Exchange: TLS, SSH, IKEv2
@@ -87,10 +93,13 @@ Whether you're a **developer**, **researcher**, or **security architect**, this 
 - [RFC 10024. Post-Quantum Traditional (PQ/T) Hybrid Key Agreement Mechanisms for TLS 1.3](https://www.rfc-editor.org/rfc/rfc10024.html). Status: Proposed Standard. Aug 2026.
 - [RFC 9954. Hybrid Key Exchange in TLS 1.3](https://www.rfc-editor.org/rfc/rfc9954.html). Status: Informational. Jul 2026.
 - [RFC 9941. Secure Shell (SSH) Key Exchange Method Using Hybrid Streamlined NTRU Prime sntrup761 and X25519 with SHA-512: sntrup761x25519-sha512](https://www.rfc-editor.org/rfc/rfc9941.html). Status: Informational. Apr 2026.
+- [RFC 9867. Mixing Preshared Keys in the IKE_INTERMEDIATE and CREATE_CHILD_SA Exchanges of the Internet Key Exchange Protocol Version 2 (IKEv2) for Post-Quantum Security](https://www.rfc-editor.org/rfc/rfc9867.html). Status: Proposed Standard. Nov 2025.
 - [RFC 9370. Multiple Key Exchanges in the Internet Key Exchange Protocol Version 2 (IKEv2)](https://www.rfc-editor.org/rfc/rfc9370.html). Status: Proposed Standard. May 2023.
 - [RFC 8784. Mixing Preshared Keys in the Internet Key Exchange Protocol Version 2 (IKEv2) for Post-quantum Security](https://www.rfc-editor.org/rfc/rfc8784.html). Status: Proposed Standard. Jun 2020.
 
 #### Certificates, Signatures and Message Formats (X.509, CMS, JOSE/COSE, OpenPGP)
+- [RFC 10082. Composite Module-Lattice-Based Digital Signature Algorithm (ML-DSA) for Use in the Cryptographic Message Syntax (CMS)](https://www.rfc-editor.org/rfc/rfc10082.html). Status: Proposed Standard. Nov 2026.
+- [RFC 10073. Composite Module-Lattice-Based Digital Signature Algorithm (ML-DSA) for Use in X.509 Public Key Infrastructure](https://www.rfc-editor.org/rfc/rfc10073.html). Status: Proposed Standard. Nov 2026.
 - [RFC 9980. Post-Quantum Cryptography in OpenPGP](https://www.rfc-editor.org/rfc/rfc9980.html). Status: Proposed Standard. Jun 2026.
 - [RFC 9964. ML-DSA for JSON Object Signing and Encryption (JOSE) and CBOR Object Signing and Encryption (COSE)](https://www.rfc-editor.org/rfc/rfc9964.html). Status: Proposed Standard. May 2026.
 - [RFC 9936. Use of ML-KEM in the Cryptographic Message Syntax (CMS)](https://www.rfc-editor.org/rfc/rfc9936.html). Status: Proposed Standard. Mar 2026.
@@ -110,34 +119,34 @@ Whether you're a **developer**, **researcher**, or **security architect**, this 
 - [RFC 8391. XMSS: eXtended Merkle Signature Scheme](https://www.rfc-editor.org/rfc/rfc8391.html). Status: Informational. May 2018.
 
 ### Drafts
-Drafts change quickly; check the datatracker for current status. Drafts that have since become RFCs are listed above, not here.
+Drafts change quickly; check the datatracker for current status. Drafts that have since become RFCs are listed above, not here. Status notes are as of Nov 2026.
 
 #### PKI and Certificates
-- [Composite Module-Lattice-Based Digital Signature Algorithm (ML-DSA) for use in Cryptographic Message Syntax (CMS)](https://datatracker.ietf.org/doc/draft-ietf-lamps-cms-composite-sigs/)
+- [Composite ML-KEM for use in X.509 Public Key Infrastructure](https://datatracker.ietf.org/doc/draft-ietf-lamps-pq-composite-kem) (approved; in the RFC Editor queue)
 - [Internet X.509 Public Key Infrastructure -- Algorithm Identifiers for the Fast-Fourier Transform over NTRU-Lattice-Based Digital Signature Algorithm (FN-DSA)](https://datatracker.ietf.org/doc/draft-ietf-lamps-fn-dsa-certificates/)
-- [Composite Module-Lattice-Based Digital Signature Algorithm (ML-DSA) for use in X.509 Public Key Infrastructure](https://datatracker.ietf.org/doc/draft-ietf-lamps-pq-composite-sigs/)
-- [Composite ML-KEM for use in X.509 Public Key Infrastructure](https://datatracker.ietf.org/doc/draft-ietf-lamps-pq-composite-kem)
 - [Merkle Tree Certificates](https://datatracker.ietf.org/doc/draft-ietf-plants-merkle-tree-certs/)
 - [Use of the FN-DSA Signature Algorithm in the Cryptographic Message Syntax (CMS)](https://datatracker.ietf.org/doc/draft-ietf-lamps-cms-fn-dsa/)
 
 #### TLS
-- [ML-KEM Post-Quantum Key Agreement for TLS 1.3](https://datatracker.ietf.org/doc/draft-ietf-tls-mlkem) (reported as approved and waiting in the RFC Editor queue as of Oct 2026)
-- [Use of ML-DSA in TLS 1.3](https://datatracker.ietf.org/doc/draft-ietf-tls-mldsa/)
-- [Use of Composite ML-DSA in TLS 1.3](https://datatracker.ietf.org/doc/draft-reddy-tls-composite-mldsa)
+- [ML-KEM Post-Quantum Key Agreement for TLS 1.3](https://datatracker.ietf.org/doc/draft-ietf-tls-mlkem) (approved; in the RFC Editor queue)
+- [Use of ML-DSA in TLS 1.3](https://datatracker.ietf.org/doc/draft-ietf-tls-mldsa/) (approved; in the RFC Editor queue)
+- [Use of Composite ML-DSA in TLS 1.3](https://datatracker.ietf.org/doc/draft-ietf-tls-composite-mldsa/) (adopted by the TLS WG; replaces draft-reddy-tls-composite-mldsa)
 - [TLS Key Share Prediction](https://datatracker.ietf.org/doc/draft-ietf-tls-key-share-prediction)
+- [HQC-KEM Key Agreement for TLS 1.3](https://datatracker.ietf.org/doc/draft-preussmattsson-tls-hqckem/) (individual draft)
 
 #### IPsec, SSH, HPKE, Other Protocols
-- [Post-quantum Key Exchange with ML-KEM in the Internet Key Exchange Protocol Version 2 (IKEv2)](https://datatracker.ietf.org/doc/draft-ietf-ipsecme-ikev2-mlkem/)
+- [Post-quantum Key Exchange with ML-KEM in the Internet Key Exchange Protocol Version 2 (IKEv2)](https://datatracker.ietf.org/doc/draft-ietf-ipsecme-ikev2-mlkem/) (approved; in the RFC Editor queue)
 - [KEM-based Authentication for IKEv2 with Post-quantum Security](https://datatracker.ietf.org/doc/draft-wang-ipsecme-kem-auth-ikev2/)
 - [Post-Quantum and Post-Quantum/Traditional Hybrid Algorithms for HPKE](https://datatracker.ietf.org/doc/draft-ietf-hpke-pq/)
+- [FN-DSA for JOSE and COSE](https://datatracker.ietf.org/doc/draft-ietf-cose-falcon/)
 - [ML-DSA for Web Authentication](https://datatracker.ietf.org/doc/draft-vitap-ml-dsa-webauthn)
 - [Quantum-Resistant Cipher Suites for EDHOC](https://datatracker.ietf.org/doc/draft-spm-lake-pqsuites/)
 - [PQ/T Composite Schemes for OpenPGP using NIST and Brainpool Elliptic Curve Domain Parameters](https://datatracker.ietf.org/doc/draft-ietf-openpgp-nist-bp-comp)
 - [Commercial National Security Algorithm (CNSA) Suite Profile for SSH](https://datatracker.ietf.org/doc/draft-becker-cnsa2-ssh-profile)
-- [Adapting Constrained Devices for Post-Quantum Cryptography](https://datatracker.ietf.org/doc/draft-ietf-pquip-pqc-hsm-constrained)
+- [Adapting Constrained Devices for Post-Quantum Cryptography](https://datatracker.ietf.org/doc/draft-ietf-pquip-pqc-hsm-constrained) (in IESG evaluation)
 
 ## Books and Handbooks
-- [The PQC Migration Handbook](https://english.aivd.nl/documents/2024/12/3/the-pqc-migration-handbook). AIVD, CWI, TNO. Dec, 2024.
+- [The PQC Migration Handbook](https://english.aivd.nl/documents/2024/12/3/the-pqc-migration-handbook). AIVD, CWI, TNO. Dec 2024.
 
 ## Migration Guides and Strategies
 
@@ -148,23 +157,25 @@ Drafts change quickly; check the datatracker for current status. Drafts that hav
 - [Accelerating the quantum-safe timeline](https://www.microsoft.com/en-us/security/blog/2026/06/30/microsoft-advances-quantum-safe-security-as-the-risk-timeline-shifts/). Microsoft. Jun 30, 2026.
 - [Where to Go Next with Quantum-Safe Certificates](https://bughunters.google.com/blog/next-with-quantum-safe-certificates). Google. Jun 1, 2026.
 - [Post-Quantum Cryptography Migration at Meta: Framework, Lessons, and Takeaways](https://engineering.fb.com/2026/04/16/security/post-quantum-cryptography-migration-at-meta-framework-lessons-and-takeaways/) Meta. Apr 16, 2026.
-- [AWS post-quantum cryptography migration plan](https://aws.amazon.com/blogs/security/aws-post-quantum-cryptography-migration-plan/). AWS. 5 Dec, 2024. Updated: April 23, 2026.
+- [AWS post-quantum cryptography migration plan](https://aws.amazon.com/blogs/security/aws-post-quantum-cryptography-migration-plan/). AWS. Dec 5, 2024. Updated: Apr 23, 2026.
 - [Cloudflare targets 2029 for full post-quantum security](https://blog.cloudflare.com/post-quantum-roadmap/). Cloudflare. Apr 4, 2026.
 - [Quantum frontiers may be closer than they appear](https://blog.google/innovation-and-ai/technology/safety-security/cryptography-migration-timeline/). Google. Mar 25, 2026.
-- [NIS2, DORA, and the EU Post-Quantum Roadmap](https://postquantum.com/quantum-policies/nis2-dora-pqc-quantum/). postquantum.com. 6 Jan, 2026.
-- [A Practitioner's Guide to Post-Quantum Cryptography](https://cloudsecurityalliance.org/artifacts/a-practitioners-guide-to-post-quantum-cryptography#). Cloud Security Alliance. 11 Oct, 2025.
-- [Post-Quantum Cryptography Migration Roadmap](https://pqcc.org/wp-content/uploads/2025/05/PQC-Migration-Roadmap-PQCC-2.pdf). Post-Quantum Cryptography Coalition. May, 2025.
+- [NIS2, DORA, and the EU Post-Quantum Roadmap](https://postquantum.com/quantum-policies/nis2-dora-pqc-quantum/). postquantum.com. Jan 6, 2026.
+- [A Practitioner's Guide to Post-Quantum Cryptography](https://cloudsecurityalliance.org/artifacts/a-practitioners-guide-to-post-quantum-cryptography#). Cloud Security Alliance. Oct 11, 2025.
+- [Post-Quantum Cryptography Migration Roadmap](https://pqcc.org/wp-content/uploads/2025/05/PQC-Migration-Roadmap-PQCC-2.pdf). Post-Quantum Cryptography Coalition. May 2025.
 - [Google's Threat model for Post-Quantum Cryptography](https://bughunters.google.com/blog/5108747984306176/google-s-threat-model-for-post-quantum-cryptography). Google. Mar 11, 2024.
 
 ### Government and Agency Guidance
 Grouped by region; newest first. NIST publications are under [NIST](#nist).
 
 **International**
+- [Preparing for the Post-Quantum Era: A Call to Action](https://cyber.gouv.fr/en/publications/jointly-led-international-publications/preparing-for-the-post-quantum-era-a-call-to-action/). G7 Cybersecurity Working Group. Sep 3, 2026.
+- [G7 Cybersecurity Working Group Statement on preparing for a post-quantum cryptography migration](https://cyber.gouv.fr/en/publications/jointly-led-international-publications/g7-cybersecurity-working-group-statement-on-preparing-for-a-post-quantum-cryptography-migration/). G7 Cybersecurity Working Group. Jun 1, 2026.
 - [Summary of NATO's Quantum Technologies Strategy](https://www.nato.int/cps/en/natohq/official_texts_221777.htm). NATO. Jan 17, 2024.
 - [Post Quantum Government Initiatives by Country and Region](https://www.gsma.com/newsroom/post-quantum-government-initiatives-by-country-and-region). GSMA.
 
 **European Union**
-- [A Coordinated Implementation Roadmap for the Transition to Post-Quantum Cryptography](https://digital-strategy.ec.europa.eu/en/library/coordinated-implementation-roadmap-transition-post-quantum-cryptography). European Commission. June 23, 2025.
+- [A Coordinated Implementation Roadmap for the Transition to Post-Quantum Cryptography](https://digital-strategy.ec.europa.eu/en/library/coordinated-implementation-roadmap-transition-post-quantum-cryptography). European Commission. Jun 23, 2025.
 - [Recommendation on a Coordinated Implementation Roadmap for the transition to Post-Quantum Cryptography](https://digital-strategy.ec.europa.eu/en/library/recommendation-coordinated-implementation-roadmap-transition-post-quantum-cryptography). European Commission. Apr 11, 2024.
 - [ENISA: Cryptography topic page](https://www.enisa.europa.eu/topics/cryptography).
 - [ETSI Quantum-Safe Cryptography Technical Committee](https://www.etsi.org/committee/1430-qsc).
@@ -172,15 +183,18 @@ Grouped by region; newest first. NIST publications are under [NIST](#nist).
 **US**
 - [NSA Post-Quantum Cryptography Resource Hub](https://www.nsa.gov/cybersecurity/post-quantum-cryptography-resource-hub/). NSA.
 - [NSA Post-Quantum Cybersecurity Resources](https://www.nsa.gov/Cybersecurity/Post-Quantum-Cybersecurity-Resources/). NSA.
+- [Quantum Computing: Federal Actions Needed to Prepare for Emerging Cyber Threat (GAO-27-108740)](https://www.gao.gov/products/gao-27-108740). GAO. Oct 6, 2026. Reissued with revisions Oct 14, 2026.
 - [Quantum Cryptographic Solutions are Limited Compared to Post-Quantum Algorithms](https://www.nsa.gov/Cybersecurity/Post-Quantum-Cryptography-Resource-Hub/Article-Display/Article/4616320/quantum-cryptographic-solutions-are-limited-compared-to-post-quantum-algorithms/). NSA. Oct 1, 2026.
 - [OMB M-26-15: Execution of the Migration to Post-Quantum Cryptography](https://www.whitehouse.gov/wp-content/uploads/2026/06/M-26-15-Execution-of-the-Migration-to-Post-Quantum-Cryptography.pdf). OMB. Jun 24, 2026.
 - [The White House: Securing The Nation Against Advanced Cryptographic Attacks](https://www.whitehouse.gov/presidential-actions/2026/06/securing-the-nation-against-advanced-cryptographic-attacks/). Jun 22, 2026.
+- [CISA: Product Categories for Technologies That Use Post-Quantum Cryptography Standards](https://www.cisa.gov/resources-tools/resources/product-categories-technologies-use-post-quantum-cryptography-standards). Jan 23, 2026. Updated periodically.
 - [CISA: Strategy for Migrating to Automated Post-Quantum Cryptography Discovery and Inventory Tools](https://www.cisa.gov/sites/default/files/2024-09/Strategy-for-Migrating-to-Automated-PQC-Discovery-and-Inventory-Tools.pdf). Sep 2024.
 - [CISA: Quantum-Readiness: Migration to Post-Quantum Cryptography](https://www.cisa.gov/sites/default/files/2023-08/Quantum%20Readiness_Final_CLEAR_508c%20%283%29.pdf). Aug 2023.
 
 **United Kingdom**
+- [Using TLS to protect data](https://www.ncsc.gov.uk/guidance/using-tls-to-protect-data) - updated with recommended post-quantum TLS configurations ([announcement](https://www.ncsc.gov.uk/sites/default/files/2026-10/Post-quantum-updates-to-our-TLS-guidance.pdf)). National Cyber Security Centre (UK). Oct 15, 2026.
 - [Post-quantum cryptography (PQC) migration workshop report](https://www.ncsc.gov.uk/blogs/post-quantum-cryptography-pqc-migration-workshop-report). National Cyber Security Centre (UK). Jul 22, 2026.
-- [Perspectives on the plan for PQC transition](https://www.gov.uk/government/publications/perspectives-on-the-plan-for-pqc-transition). GOV UK. 27 Nov, 2025.
+- [Perspectives on the plan for PQC transition](https://www.gov.uk/government/publications/perspectives-on-the-plan-for-pqc-transition). GOV UK. Nov 27, 2025.
 - [Timelines for migration to post-quantum cryptography](https://www.ncsc.gov.uk/guidance/pqc-migration-timelines). National Cyber Security Centre (UK). Mar 20, 2025.
 - [Next steps in preparing for post-quantum cryptography](https://www.ncsc.gov.uk/whitepaper/next-steps-preparing-for-post-quantum-cryptography): Guidance to help organisations and CNI providers think about how to best prepare for the migration to post-quantum cryptography (PQC). National Cyber Security Centre (UK). Nov 3, 2023.
 
@@ -192,16 +206,19 @@ Grouped by region; newest first. NIST publications are under [NIST](#nist).
 **France**
 - [Follow up position paper on Post-Quantum Cryptography](https://cyber.gouv.fr/en/publications/follow-position-paper-post-quantum-cryptography). ANSSI. Oct 11, 2023.
 - [ANSSI views on the Post-Quantum Cryptography transition](https://cyber.gouv.fr/en/publications/anssi-views-post-quantum-cryptography-transition). ANSSI. Jan 4, 2022.
+- [ANSSI: Post-quantum cryptography topic page](https://cyber.gouv.fr/en/technological-and-cybersecurity-challenges/post-quantum-cryptography/) - ANSSI's stance, recommendations and full publication list.
 
 **Australia**
-- [Guidelines for Cryptography](https://www.cyber.gov.au/resources-business-and-government/essential-cyber-security/ism/cyber-security-guidelines/guidelines-cryptography). Australian Signals Directorate. 12 Dec, 2024.
+- [Post-quantum questions to ask your vendors: Evaluating third-party readiness for post-quantum cryptography](https://www.cyber.gov.au/publication/post-quantum-questions-to-ask-your-vendors). Australian Signals Directorate, with CISA and NSA. Updated Nov 4, 2026 (first published Jul 2026).
+- [Planning for post-quantum cryptography](https://www.cyber.gov.au/business-government/secure-design/quantum/planning-for-post-quantum-cryptography) - ASD's LATICE transition framework. Australian Signals Directorate.
+- [Guidelines for Cryptography](https://www.cyber.gov.au/resources-business-and-government/essential-cyber-security/ism/cyber-security-guidelines/guidelines-cryptography). Australian Signals Directorate. Dec 12, 2024.
 
 **Canada**
-- [Guidance on securely configuring network protocols](https://www.cyber.gc.ca/en/guidance/guidance-securely-configuring-network-protocols-itsp40062). Canadian Centre for Cyber Security. Jan, 2025.
+- [Guidance on securely configuring network protocols](https://www.cyber.gc.ca/en/guidance/guidance-securely-configuring-network-protocols-itsp40062). Canadian Centre for Cyber Security. Jan 2025.
 - [Roadmap for the migration to post-quantum cryptography for the Government of Canada (ITSM.40.001)](https://www.cyber.gc.ca/en/guidance/roadmap-migration-post-quantum-cryptography-government-canada-itsm40001). Canadian Centre for Cyber Security.
 
 **Other national initiatives**
-- [CSA Quantum-Safe Handbook and Quantum Readiness Index](https://www.csa.gov.sg/resources/publications/quantum-safe-handbook-and-quantum-readiness-index/). Singapore.
+- [CSA Quantum-Safe Handbook and Quantum Readiness Index](https://www.csa.gov.sg/resources/publications/quantum-safe-handbook-and-quantum-readiness-index/). Singapore. Version 1.0 of the Quantum-Safe Migration Handbook published Jul 16, 2026; critical information infrastructure owners are to submit migration plans by Mar 31, 2027.
 - [CCN Recommendations for a safe post-quantum transition](https://www.ccn.cni.es/index.php/es/docman/documentos-publicos/boletines-pytec/499-ccn-tec-009-recomendaciones-transicion-postcuantica-segura-english/file). Spain.
 
 ### Sector Guidance (Finance, Telecom)
@@ -210,30 +227,32 @@ Grouped by region; newest first. NIST publications are under [NIST](#nist).
 - [Migration to post-quantum cryptography white paper](https://www.mastercard.com/content/dam/mccom/shared/news-and-trends/stories/2025/quantum-explainer-and-white-paper/Migration-to-post-quantum-cryptography-WhitePaper_2025.pdf). Mastercard. Oct 20, 2025.
 - [Quantum Safe Financial Forum - A call to action](https://www.europol.europa.eu/cms/sites/default/files/documents/Quantum-safe-financial-forum-2025.pdf). Europol. 2025.
 - [MAS Advisory on Addressing the Cybersecurity Risks Associated with Quantum](https://www.mas.gov.sg/-/media/mas-media-library/regulation/circulars/trpd/mas-quantum-advisory/mas-quantum-advisory.pdf). Monetary Authority of Singapore. Feb 20, 2024.
-- [Post Quantum Cryptography - Guidelines for Telecom Use Cases - Executive Summary](https://www.gsma.com/newsroom/wp-content/uploads//PQC-Guidelines-for-Telco-Use-Cases-Executive-Summary.pdf). GSMA. Feb, 2024.
+- [Post Quantum Cryptography - Guidelines for Telecom Use Cases - Executive Summary](https://www.gsma.com/newsroom/wp-content/uploads//PQC-Guidelines-for-Telco-Use-Cases-Executive-Summary.pdf). GSMA. Feb 2024.
 - [Post Quantum Cryptography - Guidelines for Telco Use Cases](https://www.gsma.com/newsroom/wp-content/uploads//PQ.03-Post-Quantum-Cryptography-Guidelines-for-Telecom-Use-v1.0.pdf). GSMA. Feb 22, 2024.
 
 ## Conferences and Events
-- [Post-Quantum Cryptography Conference. October 28 - 30, 2025 - Kuala Lumpur, Malaysia](https://pkic.org/events/2025/pqc-conference-kuala-lumpur-my/). PKI Consortium. Oct, 2025.
-- [OpenSSL Conference. Prague 2025. October 7-9, 2025](https://www.youtube.com/@OpenSSLConference). OpenSSL. Oct, 2025.
-- [Post-Quantum Cryptography Conference. January 15 and 16, 2025 - Austin, Texas, US](https://pkic.org/events/2025/pqc-conference-austin-us/). PKI Consortium. Jan, 2025.
+- [Post-Quantum Cryptography Conference. December 1 - 3, 2026 - Amsterdam, The Netherlands](https://pkic.org/events/2026/pqc-conference-amsterdam-nl/). PKI Consortium. Dec 2026. Hybrid; free to attend.
+- [Post-Quantum Cryptography Conference. October 28 - 30, 2025 - Kuala Lumpur, Malaysia](https://pkic.org/events/2025/pqc-conference-kuala-lumpur-my/). PKI Consortium. Oct 2025.
+- [OpenSSL Conference. Prague 2025. October 7-9, 2025](https://www.youtube.com/@OpenSSLConference). OpenSSL. Oct 2025.
+- [Post-Quantum Cryptography Conference. January 15 and 16, 2025 - Austin, Texas, US](https://pkic.org/events/2025/pqc-conference-austin-us/). PKI Consortium. Jan 2025.
 
 ## Research and Publications
 Government and regulator documents are under [Migration Guides and Strategies](#migration-guides-and-strategies); NIST documents are under [NIST](#nist).
 
-- [Discovering cryptographic weaknesses with Claude](https://www.anthropic.com/research/discovering-cryptographic-weaknesses). Anthropic. Jul 28, 2026.
+- [The post-quantum future of web privacy](https://blog.cloudflare.com/vole-mole/). Cloudflare. Nov 6, 2026.
+- [Discovering cryptographic weaknesses with Claude](https://www.anthropic.com/research/discovering-cryptographic-weaknesses). Anthropic. Jul 28, 2026. The reported HAWK flaw led to HAWK's withdrawal from NIST's Round 3.
 - [Why we cannot wait for better post-quantum signature algorithms](https://blog.cloudflare.com/ml-dsa-will-have-to-do/). Cloudflare. Jul 7, 2026.
 - [Exploiting ML-DSA bugs](https://cr.yp.to/papers/mldsa-20260601.pdf). Daniel J. Bernstein. Jun 22, 2026.
 - [Shor's algorithm is possible with as few as 10,000 reconfigurable atomic qubits](https://arxiv.org/abs/2603.28627). Mar 31, 2026.
 - [Securing Elliptic Curve Cryptocurrencies against Quantum Vulnerabilities: Resource Estimates and Mitigations](https://quantumai.google/static/site-assets/downloads/cryptocurrency-whitepaper.pdf). Google Quantum AI. Mar 30, 2026.
 - [Future-proofing authentication: A look at the future of post-quantum cryptography](https://www.yubico.com/blog/future-proofing-authentication-a-look-at-the-future-of-post-quantum-cryptography/). Yubico. Oct 21, 2025.
-- [Signal Protocol and Post-Quantum Ratchets](https://signal.org/blog/spqr/). Signal. 2 Oct, 2025.
+- [Signal Protocol and Post-Quantum Ratchets](https://signal.org/blog/spqr/). Signal. Oct 2, 2025.
 - [Performance and Storage Analysis of CRYSTALS Kyber as a Post Quantum Replacement for RSA and ECC](https://arxiv.org/abs/2508.01694v1). Cornell University. Aug 30, 2025.
 - [Quantum-safe security: Progress towards next-generation cryptography](https://www.microsoft.com/en-us/security/blog/2025/08/20/quantum-safe-security-progress-towards-next-generation-cryptography/). Microsoft. Aug 20, 2025.
 - [Ballot SMC013: Enable PQC Algorithms for S/MIME](https://cabforum.org/2025/07/02/ballot-smc-013/). CA/Browser Forum. Jul 2, 2025.
 - [Post-Quantum Cryptography Comes to Windows Insiders and Linux](https://techcommunity.microsoft.com/blog/microsoft-security-blog/post-quantum-cryptography-comes-to-windows-insiders-and-linux/4413803). Microsoft. May 19, 2025.
 - [Prepping for post-quantum: a beginner's guide to lattice cryptography](https://blog.cloudflare.com/lattice-crypto-primer/). Cloudflare. Mar 21, 2025.
-- [Post Quantum Computing Security](https://www.5gamericas.org/wp-content/uploads/2025/02/WP_PQCS-.pdf). 5G Americas. Feb, 2025.
+- [Post Quantum Computing Security](https://www.5gamericas.org/wp-content/uploads/2025/02/WP_PQCS-.pdf). 5G Americas. Feb 2025.
 - [Quantum Threat Timeline Report 2024](https://globalriskinstitute.org/publication/2024-quantum-threat-timeline-report/). Global Risk Institute. Dec 6, 2024.
 - [A look at the latest post-quantum signature standardization candidates](https://blog.cloudflare.com/another-look-at-pq-signatures/). Cloudflare. Nov 7, 2024.
 - [Begin Transitioning to Post-Quantum Cryptography Now](https://www.gartner.com/en/articles/post-quantum-cryptography). Gartner. Sep 30, 2024.
@@ -245,9 +264,11 @@ Government and regulator documents are under [Migration Guides and Strategies](#
 What is shipping in products and protocols. Libraries and code are under [Software, Tools, Libraries](#software-tools-libraries).
 
 ### Platforms, Services and Applications
+- [AWS Key Management Service now supports ML-KEM for post-quantum key encapsulation](https://aws.amazon.com/about-aws/whats-new/2026/10/kms-ml-kem-post-quantum/). AWS. Oct 26, 2026.
 - [Automatic Key Exchange for origins](https://blog.cloudflare.com/automatic-key-exchange-for-origins/). Cloudflare. Sep 2026.
 - [1.1.1.1 now supports post-quantum DNSSEC, all 2,420 bytes of it](https://blog.cloudflare.com/post-quantum-dnssec-1111/). Cloudflare. Sep 10, 2026.
-- [New Windows Features to Secure Today's Data in a Post-Quantum World](https://techcommunity.microsoft.com/blog/microsoft-security-blog/new-windows-features-to-secure-today%E2%80%99s-data-in-a-post-quantum-world/4523370). Microsoft. Jun 02, 2026. Updated: Jul 14, 2026.
+- [Post-quantum authentication to origins is now supported](https://blog.cloudflare.com/post-quantum-authentication-to-origins/). Cloudflare. Jul 29, 2026.
+- [New Windows Features to Secure Today's Data in a Post-Quantum World](https://techcommunity.microsoft.com/blog/microsoft-security-blog/new-windows-features-to-secure-today%E2%80%99s-data-in-a-post-quantum-world/4523370). Microsoft. Jun 2, 2026. Updated: Jul 14, 2026.
 - [What's new in post-quantum cryptography in RHEL 10.1](https://www.redhat.com/en/blog/whats-new-post-quantum-cryptography-rhel-101). Red Hat. Feb 4, 2026.
 - [Post-Quantum Cryptography APIs Now Generally Available on Microsoft Platforms](https://techcommunity.microsoft.com/blog/microsoft-security-blog/post-quantum-cryptography-apis-now-generally-available-on-microsoft-platforms/4469093). Microsoft. Nov 18, 2025.
 - [A deeper look at post-quantum cryptography support in Red Hat OpenShift 4.20 control plane](https://www.redhat.com/en/blog/deeper-look-post-quantum-cryptography-support-red-hat-openshift-420-control-plane). Red Hat. Nov 11, 2025.
@@ -255,21 +276,22 @@ What is shipping in products and protocols. Libraries and code are under [Softwa
 - [How to Become Quantum-Ready Today: Luna HSM v7.9 Delivers Real-World PQC, Validated by Thales PKI Technology Partners](https://cpl.thalesgroup.com/blog/encryption/luna-hsm-pqc-quantum-safe-encryption). Thales. Jul 29, 2025.
 - [Fortinet adds quantum-safe encryption to FortiOS 7.6 update](https://www.fortinet.com/corporate/about-us/newsroom/press-releases/2025/fortinet-advances-quantum-safe-security-to-guard-against-emerging-quantum-threats). Fortinet. Jul 22, 2025.
 - [Post-Quantum Cryptography in Kubernetes](https://kubernetes.io/blog/2025/07/18/pqc-in-k8s/). Kubernetes. Jul 18, 2025.
-- [Prepare your network for quantum-secure encryption in TLS](https://support.apple.com/en-us/122756). Apple. June 09, 2025.
-- [Customer compliance and security during the post-quantum cryptographic migration](https://aws.amazon.com/blogs/security/customer-compliance-and-security-during-the-post-quantum-cryptographic-migration/). AWS. Oct 03, 2024.
+- [Prepare your network for quantum-secure encryption in TLS](https://support.apple.com/en-us/122756). Apple. Jun 9, 2025.
+- [Customer compliance and security during the post-quantum cryptographic migration](https://aws.amazon.com/blogs/security/customer-compliance-and-security-during-the-post-quantum-cryptographic-migration/). AWS. Oct 3, 2024.
 - [NordVPN launches first app with post-quantum encryption support](https://nordvpn.com/blog/nordvpn-linux-post-quantum-encryption-support/). NordVPN. Sep 30, 2024.
-- [Introducing PQC Algorithms in SymCrypt](https://techcommunity.microsoft.com/t5/security-compliance-and-identity/microsoft-s-quantum-resistant-cryptography-is-here/ba-p/4238780). Microsoft. Sep 09, 2024. Updated Dec 18, 2024.
+- [Introducing PQC Algorithms in SymCrypt](https://techcommunity.microsoft.com/t5/security-compliance-and-identity/microsoft-s-quantum-resistant-cryptography-is-here/ba-p/4238780). Microsoft. Sep 9, 2024. Updated Dec 18, 2024.
 - [Post-quantum cryptography in Chrome](https://security.googleblog.com/2024/08/post-quantum-cryptography-standards.html). Google. Aug 2024.
-- [Post-quantum readiness for TLS at Meta](https://engineering.fb.com/2024/05/22/security/post-quantum-readiness-tls-pqr-meta/). Meta. May 22, 2024.
 - [Advancing Our Amazing Bet on Asymmetric Cryptography](https://blog.chromium.org/2024/05/advancing-our-amazing-bet-on-asymmetric.html). Google. May 23, 2024.
+- [Post-quantum readiness for TLS at Meta](https://engineering.fb.com/2024/05/22/security/post-quantum-readiness-tls-pqr-meta/). Meta. May 22, 2024.
 - [iMessage with PQ3: The new state of the art in quantum-secure messaging at scale](https://security.apple.com/blog/imessage-pq3/). Apple. Feb 21, 2024.
 - [The PQXDH Key Agreement Protocol](https://signal.org/docs/specifications/pqxdh/pqxdh.pdf). Signal. Jan 23, 2024.
-- [Cloudflare now uses post-quantum cryptography to talk to your origin server](https://blog.cloudflare.com/post-quantum-to-origins). CloudFlare. Sep 29, 2023.
+- [Cloudflare now uses post-quantum cryptography to talk to your origin server](https://blog.cloudflare.com/post-quantum-to-origins). Cloudflare. Sep 29, 2023.
 - [Quantum Resistance and the Signal Protocol](https://signal.org/blog/pqxdh/). Signal. Sep 19, 2023.
 - [Protecting Chrome Traffic with Hybrid Kyber KEM](https://blog.chromium.org/2023/08/protecting-chrome-traffic-with-hybrid.html). Google. Aug 10, 2023.
 
 ### Certificates and Web PKI
 - [Let's Encrypt: the path to post-quantum certificates](https://letsencrypt.org/2026/06/03/pq-certs.html). Let's Encrypt. Jun 3, 2026.
+- [Cultivating a robust and efficient quantum-safe HTTPS](https://blog.google/security/cultivating-a-robust-and-efficient-quantum-safe-https/) - Chrome's Merkle Tree Certificates program and planned quantum-resistant root store. Google. Feb 27, 2026.
 - [Chrome: Post-Quantum HTTPS Authentication Roadmap](https://www.chromium.org/Home/chromium-security/post-quantum-auth-roadmap/). Chromium.
 - [Keeping the Internet fast and secure: introducing Merkle Tree Certificates](https://blog.cloudflare.com/bootstrap-mtc/). Cloudflare.
 
