@@ -23,7 +23,6 @@ Whether you're a **developer**, **researcher**, or **security architect**, this 
 
 
 ## Table of Contents
-## Table of Contents
 1. [NIST](#nist)
 2. [IETF](#ietf)
 3. [Books and Handbooks](#books-and-handbooks)
@@ -54,8 +53,8 @@ Whether you're a **developer**, **researcher**, or **security architect**, this 
 - [SLH-DSA - FIPS 205](https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.205.pdf) Stateless Hash-Based Digital Signature Standard ([SPHINCS+](https://sphincs.org/) derived). Aug 13, 2024. ([NIST page](https://csrc.nist.gov/pubs/fips/205/final))
 
 ### Selected for Standardization (In Development)
-- [FN-DSA (Future FIPS 206)](https://csrc.nist.gov/presentations/2024/navigating-floating-point-challenges-in-falcon) - Falcon-based signature scheme. Selected 2022. **Not yet a final standard, and no Initial Public Draft has been published as of Nov 2026**; until it is, the [Falcon submission](https://falcon-sign.info) is the reference specification.
-- [HQC (Future FIPS 207)](https://www.nist.gov/news-events/news/2025/03/nist-selects-hqc-fifth-algorithm-post-quantum-encryption) - [Hamming Quasi-Cyclic](https://pqc-hqc.org/), a code-based backup for ML-KEM with different hardness assumptions. Selected Mar 11, 2025; the draft standard has not been published yet (NIST targets a final standard in 2027).
+- [FN-DSA (Future FIPS 206)](https://csrc.nist.gov/presentations/2024/navigating-floating-point-challenges-in-falcon) - Falcon-based signature scheme. Selected 2022. NIST presented the planned standard as [FIPS 206: FN-DSA (Falcon)](https://csrc.nist.gov/presentations/2025/fips-206-fn-dsa-falcon) at its Sixth PQC Standardization Conference (Sep 25, 2025). **Not yet a final standard, and no Initial Public Draft has been published as of Nov 2026**; until it is, the [Falcon submission](https://falcon-sign.info) is the reference specification.
+- [HQC-KEM (Future FIPS 207)](https://www.nist.gov/news-events/news/2025/03/nist-selects-hqc-fifth-algorithm-post-quantum-encryption) - [Hamming Quasi-Cyclic](https://pqc-hqc.org/), a code-based backup for ML-KEM with different hardness assumptions. Selected Mar 11, 2025. NIST presented the planned standard as [FIPS 207: HQC-KEM](https://csrc.nist.gov/Presentations/2025/fips-207-hqc-kem) at its Sixth PQC Standardization Conference (Sep 25, 2025); no draft has been published yet (NIST targets a final standard in 2027).
 
 ### NIST Special Publications and Reports
 - [NIST IR 8547, Transition to Post-Quantum Cryptography Standards](https://csrc.nist.gov/pubs/ir/8547/final). **Final** Oct 27, 2026 (Initial Public Draft was Nov 12, 2024). Quantum-vulnerable public-key algorithms deprecated after 2030 and disallowed after 2035; aligned with Executive Order 14412 and OMB M-26-15. ([NIST news](https://www.nist.gov/news-events/news/2026/10/nist-report-provides-guidelines-transition-post-quantum-cryptography))
@@ -84,8 +83,8 @@ Whether you're a **developer**, **researcher**, or **security architect**, this 
 ### RFCs
 
 #### Overview and Terminology
-- [RFC 9958. Post-Quantum Cryptography for Engineers](https://www.rfc-editor.org/rfc/rfc9958.html). Status: Informational. Jun 2026.
 - [RFC 9955. Hybrid Signature Spectrums](https://www.rfc-editor.org/rfc/rfc9955.html). Status: Informational. Jul 2026.
+- [RFC 9958. Post-Quantum Cryptography for Engineers](https://www.rfc-editor.org/rfc/rfc9958.html). Status: Informational. Jun 2026.
 - [RFC 9794. Terminology for Post-Quantum Traditional Hybrid Schemes](https://www.rfc-editor.org/rfc/rfc9794.html). Status: Informational. Jun 2025.
 
 #### Key Exchange: TLS, SSH, IKEv2
@@ -200,7 +199,7 @@ Grouped by region; newest first. NIST publications are under [NIST](#nist).
 
 **Germany**
 - [Securing Tomorrow, Today: Transitioning to Post-Quantum Cryptography](https://www.bsi.bund.de/SharedDocs/Downloads/EN/BSI/Crypto/PQC-joint-statement.pdf?__blob=publicationFile&v=3). BSI. Nov 27, 2024.
-- [Quantum-safe cryptography – fundamentals, current developments and recommendations](https://www.bsi.bund.de/SharedDocs/Downloads/EN/BSI/Publications/Brochure/quantum-safe-cryptography.pdf?__blob=publicationFile&v=6). BSI. May 18, 2022.
+- [Quantum-safe cryptography - fundamentals, current developments and recommendations](https://www.bsi.bund.de/SharedDocs/Downloads/EN/BSI/Publications/Brochure/quantum-safe-cryptography.pdf?__blob=publicationFile&v=6). BSI. May 18, 2022.
 - [BSI TR-02102 Cryptographic Mechanisms](https://www.bsi.bund.de/EN/Themen/Unternehmen-und-Organisationen/Standards-und-Zertifizierung/Technische-Richtlinien/TR-nach-Thema-sortiert/tr02102/tr02102_node.html) - technical guideline with recommended algorithms and key lengths.
 
 **France**
@@ -222,6 +221,7 @@ Grouped by region; newest first. NIST publications are under [NIST](#nist).
 - [CCN Recommendations for a safe post-quantum transition](https://www.ccn.cni.es/index.php/es/docman/documentos-publicos/boletines-pytec/499-ccn-tec-009-recomendaciones-transicion-postcuantica-segura-english/file). Spain.
 
 ### Sector Guidance (Finance, Telecom)
+- [5G Telecommunication PQC Migration Playbook](https://atis.org/resources/5g-telecommunication-pqc-migration-playbook/) - planning, prioritizing and executing the migration for telecom operators ([press release](https://atis.org/press-releases/atis-releases-5g-telecommunication-pqc-migration-playbook-a-major-planning-and-execution-guide-for-the-transition-to-post-quantum-cryptography/)). ATIS. Nov 18, 2026.
 - [Prioritising post-quantum cryptography migration activities in financial services](https://www.europol.europa.eu/publications-events/publications/prioritising-post-quantum-cryptography-migration-activities-in-financial-services). Europol. Sep 3, 2026.
 - [G7 Cyber Expert Group Statement on Advancing a Coordinated Roadmap for the Transition to Post-Quantum Cryptography in the Financial Sector](https://www.gov.uk/government/publications/advancing-a-coordinated-roadmap-for-the-transition-to-post-quantum-cryptography-in-the-financial-sector). G7 CEG. Jan 13, 2026.
 - [Migration to post-quantum cryptography white paper](https://www.mastercard.com/content/dam/mccom/shared/news-and-trends/stories/2025/quantum-explainer-and-white-paper/Migration-to-post-quantum-cryptography-WhitePaper_2025.pdf). Mastercard. Oct 20, 2025.
@@ -239,6 +239,7 @@ Grouped by region; newest first. NIST publications are under [NIST](#nist).
 ## Research and Publications
 Government and regulator documents are under [Migration Guides and Strategies](#migration-guides-and-strategies); NIST documents are under [NIST](#nist).
 
+- [Post-Quantum Authentication: Lessons from Prague](https://www.ietf.org/blog/iab-pq-workshop-impressions/) - co-chairs' first impressions from the IAB workshop on post-quantum authentication, ahead of the full report. IAB. Nov 12, 2026.
 - [The post-quantum future of web privacy](https://blog.cloudflare.com/vole-mole/). Cloudflare. Nov 6, 2026.
 - [Discovering cryptographic weaknesses with Claude](https://www.anthropic.com/research/discovering-cryptographic-weaknesses). Anthropic. Jul 28, 2026. The reported HAWK flaw led to HAWK's withdrawal from NIST's Round 3.
 - [Why we cannot wait for better post-quantum signature algorithms](https://blog.cloudflare.com/ml-dsa-will-have-to-do/). Cloudflare. Jul 7, 2026.
@@ -258,7 +259,7 @@ Government and regulator documents are under [Migration Guides and Strategies](#
 - [Begin Transitioning to Post-Quantum Cryptography Now](https://www.gartner.com/en/articles/post-quantum-cryptography). Gartner. Sep 30, 2024.
 - [A new path for Kyber on the web](https://security.googleblog.com/2024/09/a-new-path-for-kyber-on-web.html). Google. Sep 13, 2024.
 - [Developing with quantum-safe OpenSSL](https://developer.ibm.com/tutorials/awb-quantum-safe-openssl/). IBM. Aug 21, 2024.
-- [The Cornerstone of Cybersecurity – Cryptographic Standards and a 50-Year Evolution](https://www.nist.gov/blogs/cybersecurity-insights/cornerstone-cybersecurity-cryptographic-standards-and-50-year-evolution). NIST. May 26, 2022.
+- [The Cornerstone of Cybersecurity - Cryptographic Standards and a 50-Year Evolution](https://www.nist.gov/blogs/cybersecurity-insights/cornerstone-cybersecurity-cryptographic-standards-and-50-year-evolution). NIST. May 26, 2022.
 
 ## Implementations and Deployments
 What is shipping in products and protocols. Libraries and code are under [Software, Tools, Libraries](#software-tools-libraries).
@@ -338,15 +339,15 @@ What is shipping in products and protocols. Libraries and code are under [Softwa
 ## Contributions
 
 We welcome and encourage contributions!
-This project thrives on community input — from researchers, engineers, and enthusiasts alike.
+This project thrives on community input - from researchers, engineers, and enthusiasts alike.
 
 ### How to Contribute
-1. **Check for duplicates** – ensure the resource isn’t already listed.
-2. **Use credible sources** – academic papers, official standards, recognized organizations, established projects, or trusted industry publications.
-3. **Prefer established resources** – resources should have a meaningful track record, community recognition, or independent validation.
-4. **No commercial products or services** – this repository is intended for community resources, standards, research, tools, and open-source projects, rather than commercial products or services.
-5. **Provide full references** – include title, author/organization, date (if available), and a working link.
-6. **Keep it relevant** – focus on post-quantum cryptography and quantum-safe security.
+1. **Check for duplicates** - ensure the resource isn’t already listed.
+2. **Use credible sources** - academic papers, official standards, recognized organizations, established projects, or trusted industry publications.
+3. **Prefer established resources** - resources should have a meaningful track record, community recognition, or independent validation.
+4. **No commercial products or services** - this repository is intended for community resources, standards, research, tools, and open-source projects, rather than commercial products or services.
+5. **Provide full references** - include title, author/organization, date (if available), and a working link.
+6. **Keep it relevant** - focus on post-quantum cryptography and quantum-safe security.
 
 ### Contribution Examples
 - Add new **publications, events, or standards**.
@@ -359,4 +360,4 @@ This project thrives on community input — from researchers, engineers, and ent
 - **Issues:** If you’re unsure where something fits, open an issue with details.
 
 Please use this format when adding resources:
-- [Title](URL) — Short description. Organization/Author. Month Day, Year.
+- [Title](URL) - Short description. Organization/Author. Month Day, Year.
